@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: a479d74cf992c4cbaa9eb8276c7f6ef9
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bone01
+    100004: Bone02
+    100006: Bone03
+    100008: Bone04
+    100010: Bone05
+    100012: Bone06
+    100014: Bone07
+    100016: chedeng
+    100018: cheshen
+    100020: houlun
+    100022: jiaodeng_zhou
+    100024: Object01
+    100026: Object02
+    100028: qianlun
+    400000: //RootNode
+    400002: Bone01
+    400004: Bone02
+    400006: Bone03
+    400008: Bone04
+    400010: Bone05
+    400012: Bone06
+    400014: Bone07
+    400016: chedeng
+    400018: cheshen
+    400020: houlun
+    400022: jiaodeng_zhou
+    400024: Object01
+    400026: Object02
+    400028: qianlun
+    2300000: chedeng
+    2300002: cheshen
+    2300004: houlun
+    2300006: jiaodeng_zhou
+    2300008: Object01
+    2300010: Object02
+    2300012: qianlun
+    3300000: chedeng
+    3300002: cheshen
+    3300004: houlun
+    3300006: jiaodeng_zhou
+    3300008: Object01
+    3300010: Object02
+    3300012: qianlun
+    4300000: cheshen
+    4300002: chedeng
+    4300004: houlun
+    4300006: jiaodeng_zhou
+    4300008: qianlun
+    4300010: Object01
+    4300012: Object02
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: chedeng
+    13700002: cheshen
+    13700004: houlun
+    13700006: jiaodeng_zhou
+    13700008: Object01
+    13700010: Object02
+    13700012: qianlun
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone06
+        weight: 1
+      - path: Bone06/Bone02
+        weight: 1
+      - path: Bone06/Bone03
+        weight: 1
+      - path: Bone06/Bone03/Bone04
+        weight: 1
+      - path: Bone06/Bone03/Bone05
+        weight: 1
+      - path: Bone06/Bone07
+        weight: 1
+      - path: Bone06/Bone07/Bone01
+        weight: 1
+      - path: chedeng
+        weight: 1
+      - path: cheshen
+        weight: 1
+      - path: houlun
+        weight: 1
+      - path: jiaodeng_zhou
+        weight: 1
+      - path: Object01
+        weight: 1
+      - path: Object02
+        weight: 1
+      - path: qianlun
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

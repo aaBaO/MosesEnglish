@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 9acc7446a302849909780d2003fc7a20
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: beizi
+    100004: Bone002
+    100006: Bone003
+    100008: Bone004
+    100010: Bone005
+    100012: Bone006
+    100014: Bone007
+    100016: Bone008
+    100018: Bone009
+    100020: Bone010
+    100022: Bone011
+    100024: Bone012
+    100026: Bone013
+    100028: Bone014
+    100030: Bone015
+    100032: Bone016
+    100034: Bone017
+    100036: Bone018
+    100038: Bone019
+    100040: Bone020
+    100042: Bone021
+    100044: Bone022
+    100046: Bone023
+    100048: Bone024
+    100050: Bone025
+    100052: chengzhi
+    100054: chengzi1
+    100056: chengzi2
+    100058: Dummy001
+    100060: Dummy002
+    100062: guozhi
+    100064: guozhi001
+    100066: guozhi002
+    100068: guozhi003
+    100070: guozhi004
+    100072: Particle View 001
+    100074: Particle View 001 1
+    100076: Particle View 001 2
+    100078: Particle View 001 3
+    100080: Particle View 001 4
+    400000: //RootNode
+    400002: beizi
+    400004: Bone002
+    400006: Bone003
+    400008: Bone004
+    400010: Bone005
+    400012: Bone006
+    400014: Bone007
+    400016: Bone008
+    400018: Bone009
+    400020: Bone010
+    400022: Bone011
+    400024: Bone012
+    400026: Bone013
+    400028: Bone014
+    400030: Bone015
+    400032: Bone016
+    400034: Bone017
+    400036: Bone018
+    400038: Bone019
+    400040: Bone020
+    400042: Bone021
+    400044: Bone022
+    400046: Bone023
+    400048: Bone024
+    400050: Bone025
+    400052: chengzhi
+    400054: chengzi1
+    400056: chengzi2
+    400058: Dummy001
+    400060: Dummy002
+    400062: guozhi
+    400064: guozhi001
+    400066: guozhi002
+    400068: guozhi003
+    400070: guozhi004
+    400072: Particle View 001
+    400074: Particle View 001 1
+    400076: Particle View 001 2
+    400078: Particle View 001 3
+    400080: Particle View 001 4
+    2300000: beizi
+    2300002: chengzi1
+    2300004: chengzi2
+    3300000: beizi
+    3300002: chengzi1
+    3300004: chengzi2
+    4300000: chengzhi
+    4300002: guozhi
+    4300004: guozhi001
+    4300006: guozhi002
+    4300008: guozhi003
+    4300010: guozhi004
+    4300012: chengzi2
+    4300014: chengzi1
+    4300016: beizi
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: chengzhi
+    13700002: guozhi
+    13700004: guozhi001
+    13700006: guozhi002
+    13700008: guozhi003
+    13700010: guozhi004
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

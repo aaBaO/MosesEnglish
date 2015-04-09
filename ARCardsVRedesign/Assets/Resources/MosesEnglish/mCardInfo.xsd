@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
+
+<!-- 简易元素的定义 -->
+<xs:element name="englishname" type="xs:string" ></xs:element>
+<xs:element name="chinesename" type="xs:string" ></xs:element>
+<xs:element name="localscale" type="xs:float" ></xs:element>
+<xs:element name="isanimal" type="xs:integer" ></xs:element>
+
+<!-- 属性的定义 -->
+<xs:attribute name="name" type="xs:string" ></xs:attribute>
+
+<!-- 复合元素的定义 -->
+<xs:element name="card">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="englishname" ></xs:element>
+			<xs:element ref="chinesename" ></xs:element>
+			<xs:element ref="localscale" ></xs:element>
+			<xs:element ref="isanimal" ></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="MosesCardInfo">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="card" maxOccurs="unbounded"></xs:element> 
+		</xs:sequence>
+	<xs:attribute ref="name" use="required"></xs:attribute> 
+	</xs:complexType>
+</xs:element>
+
+</xs:schema>

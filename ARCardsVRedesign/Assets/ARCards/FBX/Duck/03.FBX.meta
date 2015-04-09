@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: a0bbc6cad8b3040c78e385358a2f3b2d
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bip01
+    100004: Bip01 Footsteps
+    100006: Bip01 Head
+    100008: Bip01 HeadNub
+    100010: Bip01 L Calf
+    100012: Bip01 L Foot
+    100014: Bip01 L Thigh
+    100016: Bip01 L Toe0
+    100018: Bip01 L Toe01
+    100020: Bip01 L Toe0Nub
+    100022: Bip01 Neck
+    100024: Bip01 Pelvis
+    100026: Bip01 R Calf
+    100028: Bip01 R Foot
+    100030: Bip01 R Thigh
+    100032: Bip01 R Toe0
+    100034: Bip01 R Toe01
+    100036: Bip01 R Toe0Nub
+    100038: Bip01 Spine
+    100040: Bone01
+    100042: Bone02
+    100044: Bone03
+    100046: Bone04
+    100048: Bone05
+    100050: Bone06
+    100052: Bone07
+    100054: Bone08
+    100056: Bone09
+    100058: Bone10
+    100060: Bone11
+    100062: Bone12
+    100064: Bone13
+    100066: Bone14
+    100068: Bone15
+    100070: Bone16
+    100072: Bone17
+    100074: Bone18
+    100076: Bone19
+    100078: Bone20
+    100080: Bone21
+    100082: duck
+    100084: shetou
+    100086: youyan
+    100088: youyan01
+    100090: youyanpi
+    100092: youyanpi01
+    400000: //RootNode
+    400002: Bip01
+    400004: Bip01 Footsteps
+    400006: Bip01 Head
+    400008: Bip01 HeadNub
+    400010: Bip01 L Calf
+    400012: Bip01 L Foot
+    400014: Bip01 L Thigh
+    400016: Bip01 L Toe0
+    400018: Bip01 L Toe01
+    400020: Bip01 L Toe0Nub
+    400022: Bip01 Neck
+    400024: Bip01 Pelvis
+    400026: Bip01 R Calf
+    400028: Bip01 R Foot
+    400030: Bip01 R Thigh
+    400032: Bip01 R Toe0
+    400034: Bip01 R Toe01
+    400036: Bip01 R Toe0Nub
+    400038: Bip01 Spine
+    400040: Bone01
+    400042: Bone02
+    400044: Bone03
+    400046: Bone04
+    400048: Bone05
+    400050: Bone06
+    400052: Bone07
+    400054: Bone08
+    400056: Bone09
+    400058: Bone10
+    400060: Bone11
+    400062: Bone12
+    400064: Bone13
+    400066: Bone14
+    400068: Bone15
+    400070: Bone16
+    400072: Bone17
+    400074: Bone18
+    400076: Bone19
+    400078: Bone20
+    400080: Bone21
+    400082: duck
+    400084: shetou
+    400086: youyan
+    400088: youyan01
+    400090: youyanpi
+    400092: youyanpi01
+    2300000: youyan
+    2300002: youyan01
+    2300004: youyanpi
+    2300006: youyanpi01
+    3300000: youyan
+    3300002: youyan01
+    3300004: youyanpi
+    3300006: youyanpi01
+    4300000: shetou
+    4300002: duck
+    4300004: youyan01
+    4300006: youyan
+    4300008: youyanpi01
+    4300010: youyanpi
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: duck
+    13700002: shetou
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

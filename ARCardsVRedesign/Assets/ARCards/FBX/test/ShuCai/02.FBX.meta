@@ -1,0 +1,489 @@
+fileFormatVersion: 2
+guid: 0e24e6ca7465f475c843c848b3fe32f6
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bone01
+    100004: Bone02
+    100006: Bone05
+    100008: Bone06
+    100010: Bone07
+    100012: Bone08
+    100014: Bone09
+    100016: Bone10
+    100018: Bone11
+    100020: Bone12
+    100022: Bone13
+    100024: Bone14
+    100026: Bone15
+    100028: Bone16
+    100030: Bone17
+    100032: Bone18
+    100034: Bone19
+    100036: Bone20
+    100038: Bone21
+    100040: Bone22
+    100042: Bone23
+    100044: Bone24
+    100046: Bone25
+    100048: Bone26
+    100050: Bone27
+    100052: Bone28
+    100054: Bone29
+    100056: Bone30
+    100058: Bone31
+    100060: Bone32
+    100062: Bone33
+    100064: Bone34
+    100066: Bone35
+    100068: Bone36
+    100070: Bone37
+    100072: Bone38
+    100074: Bone39
+    100076: Bone40
+    100078: Bone41
+    100080: Bone42
+    100082: Bone43
+    100084: Bone44
+    100086: Bone45
+    100088: Bone46
+    100090: Bone47
+    100092: Bone48
+    100094: Bone49
+    100096: Bone50
+    100098: Bone51
+    100100: Bone52
+    100102: Dummy02
+    100104: Dummy03
+    100106: Dummy04
+    100108: Dummy05
+    100110: Dummy06
+    100112: Dummy07
+    100114: Dummy08
+    100116: Dummy09
+    100118: Dummy10
+    100120: Dummy11
+    100122: Dummy12
+    100124: Dummy13
+    100126: Dummy14
+    100128: Dummy15
+    100130: Dummy16
+    100132: Dummy17
+    100134: Dummy18
+    100136: Dummy19
+    100138: Dummy20
+    100140: Dummy21
+    100142: Dummy22
+    100144: Dummy23
+    100146: Dummy24
+    100148: Dummy25
+    100150: Dummy26
+    100152: Dummy27
+    100154: Dummy28
+    100156: Dummy29
+    100158: Dummy30
+    100160: Dummy31
+    100162: HuLuoBo01
+    100164: HuLuoBo02
+    100166: HuLuoBo03
+    100168: HuLuoBo04
+    100170: TuDou01
+    100172: TuDou02
+    100174: TuDou03
+    100176: TuDou04
+    100178: XiHongShi01
+    100180: XiHongShi02
+    100182: XiHongShi03
+    100184: XiHongShi04
+    100186: XiHongShi05
+    400000: //RootNode
+    400002: Bone01
+    400004: Bone02
+    400006: Bone05
+    400008: Bone06
+    400010: Bone07
+    400012: Bone08
+    400014: Bone09
+    400016: Bone10
+    400018: Bone11
+    400020: Bone12
+    400022: Bone13
+    400024: Bone14
+    400026: Bone15
+    400028: Bone16
+    400030: Bone17
+    400032: Bone18
+    400034: Bone19
+    400036: Bone20
+    400038: Bone21
+    400040: Bone22
+    400042: Bone23
+    400044: Bone24
+    400046: Bone25
+    400048: Bone26
+    400050: Bone27
+    400052: Bone28
+    400054: Bone29
+    400056: Bone30
+    400058: Bone31
+    400060: Bone32
+    400062: Bone33
+    400064: Bone34
+    400066: Bone35
+    400068: Bone36
+    400070: Bone37
+    400072: Bone38
+    400074: Bone39
+    400076: Bone40
+    400078: Bone41
+    400080: Bone42
+    400082: Bone43
+    400084: Bone44
+    400086: Bone45
+    400088: Bone46
+    400090: Bone47
+    400092: Bone48
+    400094: Bone49
+    400096: Bone50
+    400098: Bone51
+    400100: Bone52
+    400102: Dummy02
+    400104: Dummy03
+    400106: Dummy04
+    400108: Dummy05
+    400110: Dummy06
+    400112: Dummy07
+    400114: Dummy08
+    400116: Dummy09
+    400118: Dummy10
+    400120: Dummy11
+    400122: Dummy12
+    400124: Dummy13
+    400126: Dummy14
+    400128: Dummy15
+    400130: Dummy16
+    400132: Dummy17
+    400134: Dummy18
+    400136: Dummy19
+    400138: Dummy20
+    400140: Dummy21
+    400142: Dummy22
+    400144: Dummy23
+    400146: Dummy24
+    400148: Dummy25
+    400150: Dummy26
+    400152: Dummy27
+    400154: Dummy28
+    400156: Dummy29
+    400158: Dummy30
+    400160: Dummy31
+    400162: HuLuoBo01
+    400164: HuLuoBo02
+    400166: HuLuoBo03
+    400168: HuLuoBo04
+    400170: TuDou01
+    400172: TuDou02
+    400174: TuDou03
+    400176: TuDou04
+    400178: XiHongShi01
+    400180: XiHongShi02
+    400182: XiHongShi03
+    400184: XiHongShi04
+    400186: XiHongShi05
+    4300000: XiHongShi01
+    4300002: XiHongShi02
+    4300004: XiHongShi03
+    4300006: XiHongShi04
+    4300008: XiHongShi05
+    4300010: HuLuoBo04
+    4300012: HuLuoBo03
+    4300014: HuLuoBo02
+    4300016: HuLuoBo01
+    4300018: TuDou01
+    4300020: TuDou02
+    4300022: TuDou03
+    4300024: TuDou04
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: HuLuoBo01
+    13700002: HuLuoBo02
+    13700004: HuLuoBo03
+    13700006: HuLuoBo04
+    13700008: TuDou01
+    13700010: TuDou02
+    13700012: TuDou03
+    13700014: TuDou04
+    13700016: XiHongShi01
+    13700018: XiHongShi02
+    13700020: XiHongShi03
+    13700022: XiHongShi04
+    13700024: XiHongShi05
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 201
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy08
+        weight: 1
+      - path: Dummy08/Dummy10
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy07
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy07/Bone34
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy07/Bone34/Bone35
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy11
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy11/Dummy05
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy11/Dummy05/Bone36
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy11/Dummy05/Bone36/Bone37
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy11/Dummy12
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy11/Dummy12/Dummy06
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy11/Dummy12/Dummy06/Bone50
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy11/Dummy12/Dummy06/Bone50/Bone51
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy11/Dummy12/Dummy13
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy11/Dummy12/Dummy13/Dummy04
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy11/Dummy12/Dummy13/Dummy04/Bone38
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy11/Dummy12/Dummy13/Dummy04/Bone38/Bone49
+        weight: 1
+      - path: Dummy09
+        weight: 1
+      - path: Dummy15
+        weight: 1
+      - path: Dummy21
+        weight: 1
+      - path: Dummy21/Dummy03
+        weight: 1
+      - path: Dummy21/Dummy03/Bone21
+        weight: 1
+      - path: Dummy21/Dummy03/Bone21/Bone22
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy14
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy14/Bone30
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy14/Bone30/Bone31
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19/Dummy16
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19/Dummy16/Bone32
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19/Dummy16/Bone32/Bone33
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19/Dummy20
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19/Dummy20/Dummy17
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19/Dummy20/Dummy17/Bone23
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19/Dummy20/Dummy17/Bone23/Bone24
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19/Dummy20/Dummy17/Bone23/Bone24/Bone25
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19/Dummy20/Dummy17/Bone23/Bone24/Bone25/Bone26
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19/Dummy20/Dummy17/Bone23/Bone24/Bone25/Bone26/Bone27
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19/Dummy20/Dummy17/Bone23/Bone24/Bone25/Bone26/Bone27/Bone28
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19/Dummy20/Dummy17/Bone23/Bone24/Bone25/Bone26/Bone27/Bone28/Bone29
+        weight: 1
+      - path: Dummy31
+        weight: 1
+      - path: Dummy31/Dummy29
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy25
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy25/Bone41
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy25/Bone41/Bone42
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy24
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy24/Bone39
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy24/Bone39/Bone40
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy22
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy22/Bone43
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy22/Bone43/Bone44
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy23
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy23/Bone45
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy23/Bone45/Bone46
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone01
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone01/Bone02
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone01/Bone02/Bone47
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone01/Bone02/Bone47/Bone48
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone01/Bone02/Bone47/Bone48/Bone52
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone05
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone05/Bone06
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone05/Bone06/Bone07
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone05/Bone06/Bone07/Bone08
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone09
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone09/Bone10
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone09/Bone10/Bone11
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone09/Bone10/Bone11/Bone12
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone13
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone13/Bone14
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone13/Bone14/Bone15
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone13/Bone14/Bone15/Bone16
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone17
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone17/Bone18
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone17/Bone18/Bone19
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone17/Bone18/Bone19/Bone20
+        weight: 1
+      - path: HuLuoBo01
+        weight: 1
+      - path: HuLuoBo02
+        weight: 1
+      - path: HuLuoBo03
+        weight: 1
+      - path: HuLuoBo04
+        weight: 1
+      - path: TuDou01
+        weight: 1
+      - path: TuDou02
+        weight: 1
+      - path: TuDou03
+        weight: 1
+      - path: TuDou04
+        weight: 1
+      - path: XiHongShi01
+        weight: 1
+      - path: XiHongShi02
+        weight: 1
+      - path: XiHongShi03
+        weight: 1
+      - path: XiHongShi04
+        weight: 1
+      - path: XiHongShi05
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

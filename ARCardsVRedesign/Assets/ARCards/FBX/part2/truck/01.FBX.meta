@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: f5b531a655bb44fedbd4f5d99971fa09
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bip01
+    100004: Bip01 Footsteps
+    100006: Bip01 Head
+    100008: Bip01 HeadNub
+    100010: Bip01 L Calf
+    100012: Bip01 L Clavicle
+    100014: Bip01 L Finger0
+    100016: Bip01 L Finger0Nub
+    100018: Bip01 L Foot
+    100020: Bip01 L Forearm
+    100022: Bip01 L Hand
+    100024: Bip01 L HorseLink
+    100026: Bip01 L Thigh
+    100028: Bip01 L Toe0
+    100030: Bip01 L Toe0Nub
+    100032: Bip01 L UpperArm
+    100034: Bip01 Neck
+    100036: Bip01 Pelvis
+    100038: Bip01 R Calf
+    100040: Bip01 R Clavicle
+    100042: Bip01 R Finger0
+    100044: Bip01 R Finger0Nub
+    100046: Bip01 R Foot
+    100048: Bip01 R Forearm
+    100050: Bip01 R Hand
+    100052: Bip01 R HorseLink
+    100054: Bip01 R Thigh
+    100056: Bip01 R Toe0
+    100058: Bip01 R Toe0Nub
+    100060: Bip01 R UpperArm
+    100062: Bip01 Spine
+    100064: Bip01 Spine1
+    100066: Bone01
+    100068: Bone02
+    100070: Bone03
+    100072: Bone04
+    100074: Bone05
+    100076: Bone06
+    100078: Bone07
+    100080: Bone08
+    100082: Bone09
+    100084: Bone10
+    100086: Bone11
+    100088: konglong
+    100090: konglong_shetou
+    100092: konglong_yanjing
+    100094: konglong_yanpi
+    100096: Object01
+    100098: truck1_boli
+    100100: truck_men
+    100102: Object02
+    100104: Object03
+    100106: Object04
+    100108: Object05
+    100110: Object06
+    100112: Object07
+    100114: Object08
+    100116: Object09
+    100118: Object10
+    100120: Object11
+    100122: Object12
+    400000: //RootNode
+    400002: Bip01
+    400004: Bip01 Footsteps
+    400006: Bip01 Head
+    400008: Bip01 HeadNub
+    400010: Bip01 L Calf
+    400012: Bip01 L Clavicle
+    400014: Bip01 L Finger0
+    400016: Bip01 L Finger0Nub
+    400018: Bip01 L Foot
+    400020: Bip01 L Forearm
+    400022: Bip01 L Hand
+    400024: Bip01 L HorseLink
+    400026: Bip01 L Thigh
+    400028: Bip01 L Toe0
+    400030: Bip01 L Toe0Nub
+    400032: Bip01 L UpperArm
+    400034: Bip01 Neck
+    400036: Bip01 Pelvis
+    400038: Bip01 R Calf
+    400040: Bip01 R Clavicle
+    400042: Bip01 R Finger0
+    400044: Bip01 R Finger0Nub
+    400046: Bip01 R Foot
+    400048: Bip01 R Forearm
+    400050: Bip01 R Hand
+    400052: Bip01 R HorseLink
+    400054: Bip01 R Thigh
+    400056: Bip01 R Toe0
+    400058: Bip01 R Toe0Nub
+    400060: Bip01 R UpperArm
+    400062: Bip01 Spine
+    400064: Bip01 Spine1
+    400066: Bone01
+    400068: Bone02
+    400070: Bone03
+    400072: Bone04
+    400074: Bone05
+    400076: Bone06
+    400078: Bone07
+    400080: Bone08
+    400082: Bone09
+    400084: Bone10
+    400086: Bone11
+    400088: konglong
+    400090: konglong_shetou
+    400092: konglong_yanjing
+    400094: konglong_yanpi
+    400096: Object01
+    400098: truck1_boli
+    400100: truck_men
+    400102: Object02
+    400104: Object03
+    400106: Object04
+    400108: Object05
+    400110: Object06
+    400112: Object07
+    400114: Object08
+    400116: Object09
+    400118: Object10
+    400120: Object11
+    400122: Object12
+    2300000: konglong_shetou
+    2300002: konglong_yanjing
+    2300004: konglong_yanpi
+    2300006: Object01
+    2300008: truck1_boli
+    2300010: truck_men
+    2300012: Object02
+    2300014: Object03
+    2300016: Object04
+    2300018: Object05
+    2300020: Object06
+    2300022: Object07
+    2300024: Object08
+    2300026: Object09
+    2300028: Object10
+    2300030: Object11
+    2300032: Object12
+    3300000: konglong_shetou
+    3300002: konglong_yanjing
+    3300004: konglong_yanpi
+    3300006: Object01
+    3300008: truck1_boli
+    3300010: truck_men
+    3300012: Object02
+    3300014: Object03
+    3300016: Object04
+    3300018: Object05
+    3300020: Object06
+    3300022: Object07
+    3300024: Object08
+    3300026: Object09
+    3300028: Object10
+    3300030: Object11
+    3300032: Object12
+    4300000: truck1_boli
+    4300002: truck_men
+    4300004: konglong
+    4300006: konglong_shetou
+    4300008: konglong_yanjing
+    4300010: Object01
+    4300012: konglong_yanpi
+    4300014: Object02
+    4300016: Object05
+    4300018: Object03
+    4300020: Object04
+    4300022: Object06
+    4300024: Object07
+    4300026: Object08
+    4300028: Object09
+    4300030: Object10
+    4300032: Object11
+    4300034: Object12
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: konglong
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
