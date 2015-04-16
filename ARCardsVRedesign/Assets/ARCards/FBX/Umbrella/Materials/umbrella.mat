@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: umbrella
-  m_Shader: {fileID: 4800000, guid: 6c4b9ba789b674a309bcf3103bc47425, type: 3}
+  m_Shader: {fileID: 4800000, guid: a043a115a16fc3b4eaca4614a5d6978b, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -31,7 +31,7 @@ Material:
         first:
           name: _Ramp
         second:
-          m_Texture: {fileID: 2800000, guid: 1160be709ef5343ec8e972d96aaabc88, type: 3}
+          m_Texture: {fileID: 2800000, guid: 7fe85df733e76164b912c7ade9e31f71, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -50,7 +50,7 @@ Material:
       data:
         first:
           name: _RimPower
-        second: 7.14285707
+        second: 8.4285717
     m_Colors:
       data:
         first:
@@ -59,7 +59,7 @@ Material:
       data:
         first:
           name: _SColor
-        second: {r: .544117689, g: .544117689, b: .544117689, a: 1}
+        second: {r: .683823526, g: .683823526, b: .683823526, a: 1}
       data:
         first:
           name: _RimColor

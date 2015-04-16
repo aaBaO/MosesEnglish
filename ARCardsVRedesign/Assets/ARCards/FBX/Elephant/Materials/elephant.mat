@@ -31,7 +31,7 @@ Material:
         first:
           name: _Ramp
         second:
-          m_Texture: {fileID: 2800000, guid: 8af77daad29f8b34da56515f193158f9, type: 3}
+          m_Texture: {fileID: 2800000, guid: abc83c21d57d4a74cabe12065fa1a8b2, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -46,11 +46,11 @@ Material:
       data:
         first:
           name: _Outline
-        second: .00357142859
+        second: .000892857148
       data:
         first:
           name: _RimPower
-        second: 8.4285717
+        second: 9.07142925
     m_Colors:
       data:
         first:
@@ -59,12 +59,12 @@ Material:
       data:
         first:
           name: _SColor
-        second: {r: .367647052, g: .367647052, b: .367647052, a: 1}
+        second: {r: .529411793, g: .529411793, b: .529411793, a: 1}
       data:
         first:
           name: _RimColor
-        second: {r: .272058845, g: .278060138, b: .278060138, a: 1}
+        second: {r: 0, g: 0, b: 0, a: 1}
       data:
         first:
           name: _OutlineColor
-        second: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+        second: {r: 0, g: 0, b: 0, a: 1}

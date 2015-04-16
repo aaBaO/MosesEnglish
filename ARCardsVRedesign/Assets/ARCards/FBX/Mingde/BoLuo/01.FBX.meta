@@ -1,0 +1,463 @@
+fileFormatVersion: 2
+guid: b5342c90ffdde4b289efd5489eff8b97
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bone01
+    100004: Bone02
+    100006: Bone03
+    100008: Bone04
+    100010: Bone05
+    100012: Bone06
+    100014: Bone07
+    100016: Bone08
+    100018: Bone09
+    100020: Bone10
+    100022: Bone11
+    100024: Bone12
+    100026: Bone13
+    100028: Bone14
+    100030: Bone15
+    100032: Bone16
+    100034: Bone17
+    100036: Bone18
+    100038: Bone19
+    100040: Bone20
+    100042: Bone21
+    100044: Bone22
+    100046: Bone23
+    100048: Bone24
+    100050: Bone25
+    100052: Bone26
+    100054: Bone27
+    100056: Bone28
+    100058: Bone29
+    100060: Bone30
+    100062: Bone31
+    100064: Bone32
+    100066: Bone33
+    100068: Bone34
+    100070: Bone35
+    100072: Bone36
+    100074: Bone37
+    100076: Bone38
+    100078: Cylinder055
+    100080: Cylinder076
+    100082: Dummy01
+    100084: Dummy02
+    100086: Dummy03
+    100088: Dummy04
+    100090: ect024
+    100092: Object026
+    100094: Object027
+    100096: Object028
+    100098: Object029
+    100100: Object030
+    100102: Object031
+    100104: Object032
+    100106: Object033
+    100108: Object034
+    100110: Object035
+    100112: Object036
+    100114: Object037
+    100116: Object038
+    100118: Object039
+    100120: Object040
+    100122: Object041
+    100124: Object042
+    100126: Object043
+    100128: Object044
+    100130: Object045
+    100132: Object046
+    100134: Object047
+    100136: Object048
+    100138: Object049
+    100140: Object050
+    100142: Particle View 01
+    100144: Dummy001
+    400000: //RootNode
+    400002: Bone01
+    400004: Bone02
+    400006: Bone03
+    400008: Bone04
+    400010: Bone05
+    400012: Bone06
+    400014: Bone07
+    400016: Bone08
+    400018: Bone09
+    400020: Bone10
+    400022: Bone11
+    400024: Bone12
+    400026: Bone13
+    400028: Bone14
+    400030: Bone15
+    400032: Bone16
+    400034: Bone17
+    400036: Bone18
+    400038: Bone19
+    400040: Bone20
+    400042: Bone21
+    400044: Bone22
+    400046: Bone23
+    400048: Bone24
+    400050: Bone25
+    400052: Bone26
+    400054: Bone27
+    400056: Bone28
+    400058: Bone29
+    400060: Bone30
+    400062: Bone31
+    400064: Bone32
+    400066: Bone33
+    400068: Bone34
+    400070: Bone35
+    400072: Bone36
+    400074: Bone37
+    400076: Bone38
+    400078: Cylinder055
+    400080: Cylinder076
+    400082: Dummy01
+    400084: Dummy02
+    400086: Dummy03
+    400088: Dummy04
+    400090: ect024
+    400092: Object026
+    400094: Object027
+    400096: Object028
+    400098: Object029
+    400100: Object030
+    400102: Object031
+    400104: Object032
+    400106: Object033
+    400108: Object034
+    400110: Object035
+    400112: Object036
+    400114: Object037
+    400116: Object038
+    400118: Object039
+    400120: Object040
+    400122: Object041
+    400124: Object042
+    400126: Object043
+    400128: Object044
+    400130: Object045
+    400132: Object046
+    400134: Object047
+    400136: Object048
+    400138: Object049
+    400140: Object050
+    400142: Particle View 01
+    400144: Dummy001
+    2300000: ect024
+    2300002: Object026
+    2300004: Object027
+    2300006: Object028
+    2300008: Object029
+    2300010: Object030
+    2300012: Object031
+    2300014: Object032
+    2300016: Object033
+    2300018: Object034
+    2300020: Object035
+    2300022: Object036
+    2300024: Object037
+    2300026: Object038
+    2300028: Object039
+    2300030: Object040
+    2300032: Object041
+    2300034: Object042
+    2300036: Object043
+    2300038: Object044
+    2300040: Object045
+    2300042: Object046
+    2300044: Object047
+    2300046: Object048
+    2300048: Object049
+    2300050: Object050
+    2300052: Cylinder055
+    2300054: Cylinder076
+    3300000: ect024
+    3300002: Object026
+    3300004: Object027
+    3300006: Object028
+    3300008: Object029
+    3300010: Object030
+    3300012: Object031
+    3300014: Object032
+    3300016: Object033
+    3300018: Object034
+    3300020: Object035
+    3300022: Object036
+    3300024: Object037
+    3300026: Object038
+    3300028: Object039
+    3300030: Object040
+    3300032: Object041
+    3300034: Object042
+    3300036: Object043
+    3300038: Object044
+    3300040: Object045
+    3300042: Object046
+    3300044: Object047
+    3300046: Object048
+    3300048: Object049
+    3300050: Object050
+    3300052: Cylinder055
+    3300054: Cylinder076
+    4300000: Cylinder055
+    4300002: Cylinder076
+    4300004: Object037
+    4300006: Object040
+    4300008: Object039
+    4300010: Object041
+    4300012: Object042
+    4300014: Object027
+    4300016: Object029
+    4300018: ect024
+    4300020: Object026
+    4300022: Object028
+    4300024: Object030
+    4300026: Object033
+    4300028: Object031
+    4300030: Object035
+    4300032: Object043
+    4300034: Object048
+    4300036: Object032
+    4300038: Object045
+    4300040: Object036
+    4300042: Object038
+    4300044: Object044
+    4300046: Object046
+    4300048: Object034
+    4300050: Object047
+    4300052: Object049
+    4300054: Object050
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Cylinder055
+    13700002: Cylinder076
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone01
+        weight: 1
+      - path: Bone01/Bone02
+        weight: 1
+      - path: Bone01/Bone02/Bone03
+        weight: 1
+      - path: Bone01/Bone04
+        weight: 1
+      - path: Bone01/Bone04/Bone05
+        weight: 1
+      - path: Bone01/Bone04/Bone05/Bone06
+        weight: 1
+      - path: Bone01/Bone07
+        weight: 1
+      - path: Bone01/Bone07/Bone08
+        weight: 1
+      - path: Bone01/Bone07/Bone08/Bone09
+        weight: 1
+      - path: Cylinder055
+        weight: 1
+      - path: Cylinder076
+        weight: 1
+      - path: Dummy01
+        weight: 1
+      - path: Dummy01/Dummy04
+        weight: 1
+      - path: Dummy01/Dummy04/Bone15
+        weight: 1
+      - path: Dummy01/Dummy04/Bone15/Object035
+        weight: 1
+      - path: Dummy01/Dummy04/Bone16
+        weight: 1
+      - path: Dummy01/Dummy04/Bone16/Object036
+        weight: 1
+      - path: Dummy01/Dummy04/Bone17
+        weight: 1
+      - path: Dummy01/Dummy04/Bone17/Object043
+        weight: 1
+      - path: Dummy01/Dummy04/Bone18
+        weight: 1
+      - path: Dummy01/Dummy04/Bone18/Object048
+        weight: 1
+      - path: Dummy01/Dummy04/Bone19
+        weight: 1
+      - path: Dummy01/Dummy04/Bone19/Object042
+        weight: 1
+      - path: Dummy01/Dummy04/Bone20
+        weight: 1
+      - path: Dummy01/Dummy04/Bone20/Object037
+        weight: 1
+      - path: Dummy01/Dummy04/Bone21
+        weight: 1
+      - path: Dummy01/Dummy04/Bone21/Object028
+        weight: 1
+      - path: Dummy01/Dummy04/Bone22
+        weight: 1
+      - path: Dummy01/Dummy04/Bone22/Object030
+        weight: 1
+      - path: Dummy01/Dummy04/Bone23
+        weight: 1
+      - path: Dummy01/Dummy04/Bone23/Object027
+        weight: 1
+      - path: Dummy01/Dummy04/Bone24
+        weight: 1
+      - path: Dummy01/Dummy04/Bone24/Object029
+        weight: 1
+      - path: Dummy01/Dummy04/Bone25
+        weight: 1
+      - path: Dummy01/Dummy04/Bone25/Object033
+        weight: 1
+      - path: Dummy01/Dummy04/Bone26
+        weight: 1
+      - path: Dummy01/Dummy04/Bone26/Object032
+        weight: 1
+      - path: Dummy01/Dummy04/Bone27
+        weight: 1
+      - path: Dummy01/Dummy04/Bone27/Object045
+        weight: 1
+      - path: Dummy01/Dummy04/Bone28
+        weight: 1
+      - path: Dummy01/Dummy04/Bone28/Object046
+        weight: 1
+      - path: Dummy01/Dummy04/Bone29
+        weight: 1
+      - path: Dummy01/Dummy04/Bone29/Object040
+        weight: 1
+      - path: Dummy01/Dummy04/Bone30
+        weight: 1
+      - path: Dummy01/Dummy04/Bone30/Object039
+        weight: 1
+      - path: Dummy01/Dummy04/Bone31
+        weight: 1
+      - path: Dummy01/Dummy04/Bone31/Object038
+        weight: 1
+      - path: Dummy01/Dummy04/Bone32
+        weight: 1
+      - path: Dummy01/Dummy04/Bone32/Object041
+        weight: 1
+      - path: Dummy01/Dummy04/Bone33
+        weight: 1
+      - path: Dummy01/Dummy04/Bone33/ect024
+        weight: 1
+      - path: Dummy01/Dummy04/Bone34
+        weight: 1
+      - path: Dummy01/Dummy04/Bone34/Object026
+        weight: 1
+      - path: Dummy01/Dummy04/Bone35
+        weight: 1
+      - path: Dummy01/Dummy04/Bone35/Object031
+        weight: 1
+      - path: Dummy01/Dummy04/Bone36
+        weight: 1
+      - path: Dummy01/Dummy04/Bone36/Object034
+        weight: 1
+      - path: Dummy01/Dummy04/Bone37
+        weight: 1
+      - path: Dummy01/Dummy04/Bone37/Object047
+        weight: 1
+      - path: Dummy01/Dummy04/Bone38
+        weight: 1
+      - path: Dummy01/Dummy04/Bone38/Object044
+        weight: 1
+      - path: Dummy01/Dummy04/Dummy03
+        weight: 1
+      - path: Dummy01/Dummy04/Dummy03/Bone12
+        weight: 1
+      - path: Dummy01/Dummy04/Dummy03/Bone12/Bone13
+        weight: 1
+      - path: Dummy01/Dummy04/Dummy03/Bone12/Bone13/Bone14
+        weight: 1
+      - path: Dummy02
+        weight: 1
+      - path: Dummy02/Bone10
+        weight: 1
+      - path: Dummy02/Bone10/Object049
+        weight: 1
+      - path: Dummy02/Bone11
+        weight: 1
+      - path: Dummy02/Bone11/Object050
+        weight: 1
+      - path: Particle View 01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

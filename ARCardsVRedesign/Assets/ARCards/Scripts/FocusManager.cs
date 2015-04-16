@@ -14,6 +14,7 @@ public class FocusManager :MonoBehaviour
 	
 	private static List<MEFocusObj> FocusObjList = new List<MEFocusObj>();
 	private static bool TodoGetMEFocusObj;
+	private static bool GetOneObjFinish;
 
 	private static int LoadCount = 0;
 	private static int LoadIndex = 0;
@@ -25,14 +26,9 @@ public class FocusManager :MonoBehaviour
 	private void Awake()
 	{
 		MosesEnglishData.FocusTargetname = "empty";
-//		Debug.Log(CardInfoCatcher.GetEnglishname("rabbit"));
-//		Debug.Log(CardInfoCatcher.GetChinesename("rabbit"));
-//		Debug.Log(CardInfoCatcher.GetDefaultscale("rabbit"));
-//		Debug.Log(CardInfoCatcher.GetIsAnimal("rabbit"));
-		this.focustargetEvent += ModelAnimator.SetFocusTarget;
+		GetOneObjFinish = true;
+		this.focustargetEvent += MainUIManager.SetFocusTarget;
 		this.focustargetEvent += ModelControl.SetFocusTarget;
-//		this.focustargetEvent += ModelAudio.SetFocusTarget;
-//		this.focustargetEvent += ModelParticle.SetFocusTarget;
 	}
 
 	private void Update()
@@ -60,10 +56,22 @@ public class FocusManager :MonoBehaviour
 					MEFocusTargetIndexID = FocusTargetIndexID(tmphitname);
 					if(MEFocusTargetIndexID >= 0)
 					{
-						FocusObjList[MEFocusTargetIndexID].WordAudio.Source = GameObject.Find("Audio Source_Word").GetComponent<AudioSource>();
-						FocusObjList[MEFocusTargetIndexID].WordAudio.PlayWord(MEAudioType.Chinese);
-						FocusObjList[MEFocusTargetIndexID].Animation.Play("TouchRun");
-						FocusObjList[MEFocusTargetIndexID].Particle.Play();
+						if(FocusObjList[MEFocusTargetIndexID].LoadFinish)
+						{
+							FocusObjList[MEFocusTargetIndexID].Obj.collider.enabled = false;
+							FocusObjList[MEFocusTargetIndexID].WordAudio.Source = GameObject.Find("Audio Source_Word").GetComponent<AudioSource>();
+							FocusObjList[MEFocusTargetIndexID].WordAudio.ClickSource = GameObject.Find("Audio Source_Click").GetComponent<AudioSource>();
+							FocusObjList[MEFocusTargetIndexID].WordAudio.PlayWord(MosesEnglishData.Language);
+							FocusObjList[MEFocusTargetIndexID].Animation.Play("TouchRun");
+							FocusObjList[MEFocusTargetIndexID].Particle.Play();
+
+							StartCoroutine(WaitMEAnimationclip(MEFocusTargetIndexID));
+						}
+						else
+						{
+							GetOneObjFinish = false;
+							StartCoroutine(DogetFocusObj(MEFocusTargetIndexID));
+						}
 					}
 				}
 			}
@@ -73,6 +81,7 @@ public class FocusManager :MonoBehaviour
 		if(TodoGetMEFocusObj)
 		{
 			TodoGetMEFocusObj = false;
+			GetOneObjFinish = false;
 			StartCoroutine(DogetFocusObj(LoadIndex));
 //			if(LoadCount > 1)
 //				StartCoroutine(DogetFocusObj(LoadIndex + 1));
@@ -108,7 +117,10 @@ public class FocusManager :MonoBehaviour
 
 			if(LoadIndex < FocusObjList.Count - 2)
 				LoadIndex++;
-			TodoGetMEFocusObj = true;
+
+			//GetOneObjFinsh default is true
+			if(GetOneObjFinish)
+				TodoGetMEFocusObj = true;
 		}
 		else
 		{
@@ -117,7 +129,10 @@ public class FocusManager :MonoBehaviour
 
 			if(LoadIndex < FocusObjList.Count - 1)
 				LoadIndex++;
-			TodoGetMEFocusObj = true;
+
+			//GetOneObjFinsh default is true
+			if(GetOneObjFinish)
+				TodoGetMEFocusObj = true;
 		}
 
 		FocusnameListChanged = true;
@@ -134,6 +149,7 @@ public class FocusManager :MonoBehaviour
 		//Remove target from audio objects list,and set object null
 		if(findtarget.Contains("letter"))
 		{
+			
 			//remove two objects
 			int tempindex_a = -1;
 			int tempindex_b = -1;
@@ -158,6 +174,7 @@ public class FocusManager :MonoBehaviour
 				FocusObjList.Remove(FocusObjList[tempindex_b]);
 
 				LoadIndex -= 2;
+				FocusnameListChanged = true;
 			}
 			else if(tempindex_a < tempindex_b)
 			{
@@ -168,37 +185,41 @@ public class FocusManager :MonoBehaviour
 				FocusObjList.Remove(FocusObjList[tempindex_a]);
 				
 				LoadIndex -= 2;
+				FocusnameListChanged = true;
 			}
 		}
 		else
 		{
 			//remove one object
+			int tempindex = -1;
 			foreach(MEFocusObj mefo in FocusObjList)
 			{
 				if(mefo.Name.Equals(findtarget))
 				{
-					int tmpindex = FocusObjList.IndexOf(mefo);
-
-					FocusObjList[tmpindex] = null;
-					FocusObjList.Remove(FocusObjList[tmpindex]);
-
-					LoadIndex -= 1;
+					tempindex = FocusObjList.IndexOf(mefo);
 				}
 			}
 
+			if(tempindex > -1)
+			{
+				FocusObjList[tempindex] = null;
+				FocusObjList.Remove(FocusObjList[tempindex]);
+				
+				LoadIndex -= 1;
+				FocusnameListChanged = true;
+			}
 		}
 
 
 		if(FoundnameList.Count == 0)
 		{
-			MosesEnglishData.FocusTargetname = "empty";
+			MosesEnglishData.FocusTargetname = "empty";			
 			LoadIndex = 0;
 		}
 		else
 		{
 			MosesEnglishData.FocusTargetname = FoundnameList[0];
 		}
-		FocusnameListChanged = true;
 	}
 
 	/// <summary>
@@ -244,13 +265,26 @@ public class FocusManager :MonoBehaviour
 						AudioClip cnac = Resources.Load<AudioClip>("MosesEnglish/WordAudios/" + objname + "_cn");
 						if(cnac != null)
 							FocusObjList[index].WordAudio.MEWordAudioClips[cnac] = MEAudioType.Chinese;
-						
+
+						AudioClip s1ac = Resources.Load<AudioClip>("MosesEnglish/ClickAudios/" + objname + "_s1");
+						if(s1ac != null)
+							FocusObjList[index].WordAudio.MEWordAudioClips[s1ac] = MEAudioType.State1;
+
+						AudioClip s2ac = Resources.Load<AudioClip>("MosesEnglish/ClickAudios/" + objname + "_s2");
+						if(s2ac != null)
+							FocusObjList[index].WordAudio.MEWordAudioClips[s2ac] = MEAudioType.State2;
+
+						AudioClip s3ac = Resources.Load<AudioClip>("MosesEnglish/ClickAudios/" + objname + "_s3");
+						if(s3ac != null)
+							FocusObjList[index].WordAudio.MEWordAudioClips[s3ac] = MEAudioType.State3;
+
 						GameObject[] gameobjs;
 						gameobjs = GameObject.FindGameObjectsWithTag("Model");
 						foreach(GameObject go in gameobjs)
 						{
 							if(go.name.Equals(objname))
 							{
+								FocusObjList[index].Obj = go;
 								FocusObjList[index].Animation.Animator = go.GetComponent<Animator>();
 								FocusObjList[index].Particle.MEParticleSystems = go.GetComponentsInChildren<ParticleSystem>(true);
 								if(FocusObjList[index].Particle.MEParticleSystems.Length > 0 && FocusObjList[index].Particle.MEParticleSystems[0] != null)
@@ -258,6 +292,8 @@ public class FocusManager :MonoBehaviour
 							}
 						}
 
+						FocusObjList[index].LoadFinish = true;
+						GetOneObjFinish = true;
 					}
 				}
 				break;
@@ -287,7 +323,10 @@ public class FocusManager :MonoBehaviour
 
 		tmpindex = FocusTargetIndexID(focusname);
 
-		return FocusObjList[tmpindex].Particle;
+		if(tmpindex >= 0)
+			return FocusObjList[tmpindex].Particle;
+		else 
+			return null;
 	}
 
 	public void SetFocusParticle()
@@ -307,5 +346,25 @@ public class FocusManager :MonoBehaviour
 				FocusTargetParticle.transform.localScale = new Vector3(1, 1, 1);
 			}
 		}
+	}
+
+	IEnumerator WaitMEAnimationclip(int index)
+	{
+		yield return new WaitForSeconds(0.3f);
+		float cliptime = FocusObjList[index].Animation.GetClipTime();
+		if(FocusObjList[index].Animation.IsAnimatorState("Take 001"))
+		{
+			FocusObjList[index].WordAudio.PlayStateClip(MEAudioType.State1);
+		}
+		else if(FocusObjList[index].Animation.IsAnimatorState("Take 001 0"))
+		{
+			FocusObjList[index].WordAudio.PlayStateClip(MEAudioType.State2);
+		}
+		else if(FocusObjList[index].Animation.IsAnimatorState("Take 001 1"))
+		{
+			FocusObjList[index].WordAudio.PlayStateClip(MEAudioType.State3);
+		}
+		yield return new WaitForSeconds(cliptime);
+		FocusObjList[index].Obj.collider.enabled = true;
 	}
 }

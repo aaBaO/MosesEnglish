@@ -39,7 +39,8 @@ public class MEParticle :ScaleInterface
 	{
 		for(int i = 0; i < MEPSLength; i++)
 		{
-			MEParticleSystems[i].Play();
+			if(!MEParticleSystems[i].playOnAwake)
+				MEParticleSystems[i].Play();
 		}
 	}
 

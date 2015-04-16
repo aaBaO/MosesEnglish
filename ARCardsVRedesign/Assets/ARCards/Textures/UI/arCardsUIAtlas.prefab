@@ -42,8 +42,8 @@ MonoBehaviour:
   material: {fileID: 2100000, guid: 0cc3e55b1490b4e4696f39e949392f34, type: 2}
   mSprites:
   - name: activate
-    x: 748
-    y: 777
+    x: 693
+    y: 11
     width: 269
     height: 115
     borderLeft: 0
@@ -56,7 +56,7 @@ MonoBehaviour:
     paddingBottom: 13
   - name: activateback
     x: 1966
-    y: 1839
+    y: 1825
     width: 55
     height: 55
     borderLeft: 0
@@ -80,9 +80,22 @@ MonoBehaviour:
     paddingRight: 12
     paddingTop: 0
     paddingBottom: 0
+  - name: backhome_d
+    x: 0
+    y: 127
+    width: 232
+    height: 256
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 12
+    paddingTop: 0
+    paddingBottom: 0
   - name: Boxbutton
     x: 1910
-    y: 1895
+    y: 1881
     width: 120
     height: 56
     borderLeft: 0
@@ -94,21 +107,47 @@ MonoBehaviour:
     paddingTop: 15
     paddingBottom: 14
   - name: chinese
-    x: 1555
-    y: 1527
-    width: 254
-    height: 167
+    x: 1661
+    y: 759
+    width: 179
+    height: 197
     borderLeft: 0
     borderRight: 0
     borderTop: 0
     borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 2
-    paddingTop: 45
-    paddingBottom: 44
+    paddingLeft: 38
+    paddingRight: 39
+    paddingTop: 28
+    paddingBottom: 31
+  - name: chinese_d
+    x: 1751
+    y: 1481
+    width: 195
+    height: 213
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 30
+    paddingRight: 31
+    paddingTop: 20
+    paddingBottom: 23
   - name: close
-    x: 689
-    y: 127
+    x: 1253
+    y: 700
+    width: 227
+    height: 256
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 16
+    paddingRight: 13
+    paddingTop: 0
+    paddingBottom: 0
+  - name: close_d
+    x: 1025
+    y: 186
     width: 227
     height: 256
     borderLeft: 0
@@ -120,21 +159,47 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: english
-    x: 493
-    y: 725
-    width: 254
-    height: 167
+    x: 1481
+    y: 759
+    width: 179
+    height: 197
     borderLeft: 0
     borderRight: 0
     borderTop: 0
     borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 2
-    paddingTop: 45
-    paddingBottom: 44
+    paddingLeft: 38
+    paddingRight: 39
+    paddingTop: 28
+    paddingBottom: 31
+  - name: english_d
+    x: 1555
+    y: 1481
+    width: 195
+    height: 213
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 30
+    paddingRight: 31
+    paddingTop: 20
+    paddingBottom: 23
   - name: enlarge
     x: 1025
-    y: 1214
+    y: 443
+    width: 227
+    height: 256
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 16
+    paddingRight: 13
+    paddingTop: 0
+    paddingBottom: 0
+  - name: enlarge_d
+    x: 1025
+    y: 700
     width: 227
     height: 256
     borderLeft: 0
@@ -146,8 +211,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: enter
-    x: 1481
-    y: 1378
+    x: 493
+    y: 800
     width: 423
     height: 92
     borderLeft: 0
@@ -159,8 +224,8 @@ MonoBehaviour:
     paddingTop: 19
     paddingBottom: 17
   - name: Free
-    x: 1810
-    y: 1612
+    x: 763
+    y: 648
     width: 190
     height: 82
     borderLeft: 0
@@ -172,8 +237,21 @@ MonoBehaviour:
     paddingTop: 23
     paddingBottom: 23
   - name: help
-    x: 1253
-    y: 1214
+    x: 1709
+    y: 957
+    width: 227
+    height: 256
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 16
+    paddingRight: 13
+    paddingTop: 0
+    paddingBottom: 0
+  - name: help_d
+    x: 1481
+    y: 957
     width: 227
     height: 256
     borderLeft: 0
@@ -185,8 +263,21 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hide
-    x: 0
-    y: 128
+    x: 233
+    y: 129
+    width: 231
+    height: 255
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 13
+    paddingRight: 12
+    paddingTop: 1
+    paddingBottom: 0
+  - name: hide_d
+    x: 233
+    y: 385
     width: 231
     height: 255
     borderLeft: 0
@@ -211,8 +302,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 54
   - name: Loading
-    x: 748
-    y: 661
+    x: 1253
+    y: 667
     width: 260
     height: 32
     borderLeft: 0
@@ -225,7 +316,7 @@ MonoBehaviour:
     paddingBottom: 40
   - name: loadingbackground
     x: 0
-    y: 893
+    y: 1471
     width: 1024
     height: 577
     borderLeft: 0
@@ -251,7 +342,7 @@ MonoBehaviour:
     paddingBottom: 35
   - name: LoginBackground
     x: 0
-    y: 1471
+    y: 893
     width: 1024
     height: 577
     borderLeft: 0
@@ -263,7 +354,20 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: menu
-    x: 461
+    x: 1025
+    y: 1214
+    width: 227
+    height: 256
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 16
+    paddingRight: 13
+    paddingTop: 0
+    paddingBottom: 0
+  - name: menu_d
+    x: 693
     y: 127
     width: 227
     height: 256
@@ -315,7 +419,20 @@ MonoBehaviour:
     paddingTop: 79
     paddingBottom: 80
   - name: show
-    x: 689
+    x: 465
+    y: 384
+    width: 227
+    height: 256
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 16
+    paddingRight: 13
+    paddingTop: 0
+    paddingBottom: 0
+  - name: show_d
+    x: 693
     y: 384
     width: 227
     height: 256
@@ -328,8 +445,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: slideback
-    x: 1025
-    y: 1202
+    x: 1514
+    y: 688
     width: 497
     height: 11
     borderLeft: 0
@@ -342,20 +459,20 @@ MonoBehaviour:
     paddingBottom: 58
   - name: slidebtn
     x: 1910
-    y: 1952
-    width: 119
-    height: 96
+    y: 1938
+    width: 127
+    height: 110
     borderLeft: 0
     borderRight: 0
     borderTop: 0
     borderBottom: 0
-    paddingLeft: 4
-    paddingRight: 5
-    paddingTop: 17
-    paddingBottom: 15
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 15
+    paddingBottom: 3
   - name: toactivate
-    x: 748
-    y: 694
+    x: 493
+    y: 648
     width: 269
     height: 82
     borderLeft: 0
@@ -380,8 +497,8 @@ MonoBehaviour:
     paddingTop: 2
     paddingBottom: 2
   - name: toturialslideback
-    x: 1025
-    y: 923
+    x: 1253
+    y: 109
     width: 12
     height: 278
     borderLeft: 0
@@ -393,8 +510,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: toturialslidefor
-    x: 1025
-    y: 644
+    x: 1253
+    y: 388
     width: 12
     height: 278
     borderLeft: 0
@@ -407,7 +524,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: tutorialclose
     x: 1910
-    y: 1838
+    y: 1824
     width: 55
     height: 56
     borderLeft: 0
@@ -419,20 +536,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: volume
-    x: 461
-    y: 384
-    width: 227
-    height: 256
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 16
-    paddingRight: 13
-    paddingTop: 0
-    paddingBottom: 0
-  - name: volumeno
-    x: 233
+    x: 465
     y: 127
     width: 227
     height: 256
@@ -444,9 +548,48 @@ MonoBehaviour:
     paddingRight: 13
     paddingTop: 0
     paddingBottom: 0
-  - name: wordback
+  - name: volume_d
+    x: 1253
+    y: 1214
+    width: 227
+    height: 256
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 16
+    paddingRight: 13
+    paddingTop: 0
+    paddingBottom: 0
+  - name: volumeno
     x: 1481
-    y: 1309
+    y: 1214
+    width: 227
+    height: 256
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 16
+    paddingRight: 13
+    paddingTop: 0
+    paddingBottom: 0
+  - name: volumeno_d
+    x: 1709
+    y: 1214
+    width: 227
+    height: 256
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 16
+    paddingRight: 13
+    paddingTop: 0
+    paddingBottom: 0
+  - name: wordback
+    x: 493
+    y: 731
     width: 459
     height: 68
     borderLeft: 0
@@ -458,8 +601,21 @@ MonoBehaviour:
     paddingTop: 94
     paddingBottom: 94
   - name: zoom
-    x: 233
-    y: 384
+    x: 1025
+    y: 957
+    width: 227
+    height: 256
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 16
+    paddingRight: 13
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zoom_d
+    x: 1253
+    y: 957
     width: 227
     height: 256
     borderLeft: 0

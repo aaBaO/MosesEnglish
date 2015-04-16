@@ -5,7 +5,7 @@ PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 3
   AndroidProfiler: 0
-  defaultScreenOrientation: 0
+  defaultScreenOrientation: 4
   targetDevice: 2
   targetGlesGraphics: -1
   targetIOSGraphics: 2
@@ -143,13 +143,13 @@ PlayerSettings:
       m_Size: 36
   - m_BuildTarget: iPhone
     m_Icons:
-    - m_Icon: {fileID: 2800000, guid: bd6e4af1ec5d7424b813572c4e9792f0, type: 3}
+    - m_Icon: {fileID: 0}
       m_Size: 180
-    - m_Icon: {fileID: 2800000, guid: c4ed1baaf0e3548f28b7d72a4bea3e36, type: 3}
+    - m_Icon: {fileID: 0}
       m_Size: 152
     - m_Icon: {fileID: 2800000, guid: 072e34c6aa6e84b299696b51569f1570, type: 3}
       m_Size: 144
-    - m_Icon: {fileID: 2800000, guid: 38e2d2465da11477e9bb48a221c41e6b, type: 3}
+    - m_Icon: {fileID: 2800000, guid: 7e28be7b92ccf463f89ba16e4a5856ca, type: 3}
       m_Size: 120
     - m_Icon: {fileID: 2800000, guid: 77bd49bd6f96342108279384bb9e5c8a, type: 3}
       m_Size: 114

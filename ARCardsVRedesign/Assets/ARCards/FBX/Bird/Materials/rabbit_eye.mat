@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: rabbit_eye
-  m_Shader: {fileID: 4800000, guid: 6c4b9ba789b674a309bcf3103bc47425, type: 3}
+  m_Shader: {fileID: 4800000, guid: a043a115a16fc3b4eaca4614a5d6978b, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -46,11 +46,11 @@ Material:
       data:
         first:
           name: _Outline
-        second: .232142851
+        second: .0017857143
       data:
         first:
           name: _RimPower
-        second: 6.28571415
+        second: 8.6428566
     m_Colors:
       data:
         first:
@@ -59,7 +59,7 @@ Material:
       data:
         first:
           name: _SColor
-        second: {r: 0, g: 0, b: 0, a: 1}
+        second: {r: .323529422, g: .323529422, b: .323529422, a: 1}
       data:
         first:
           name: _RimColor

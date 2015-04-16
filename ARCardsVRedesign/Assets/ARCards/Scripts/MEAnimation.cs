@@ -33,4 +33,14 @@ public class MEAnimation
 	{
 		animator.SetTrigger(triggername);
 	}
+
+	public float GetClipTime()
+	{
+		return animator.GetCurrentAnimatorStateInfo(0).length;
+	}
+
+	public bool IsAnimatorState(string statename)
+	{
+		return animator.GetCurrentAnimatorStateInfo(0).IsName(statename);
+	}
 }

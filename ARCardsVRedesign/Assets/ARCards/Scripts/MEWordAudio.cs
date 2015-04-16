@@ -25,7 +25,25 @@ public class MEWordAudio:MEAudio
 			idleloopsource = value;
 		}
 	}
+
+	private AudioSource clickSource;
 	
+	public AudioSource ClickSource
+	{
+		get
+		{
+			if(clickSource == null)
+				throw new ArgumentNullException("clickSource", "AudioSource:ClickSource is null");
+			else 
+				return clickSource;
+		}
+		
+		set
+		{
+			clickSource = value;
+		}
+	}
+
 	public MEWordAudio(string name)
 	{
 		Name = name;
@@ -34,17 +52,6 @@ public class MEWordAudio:MEAudio
 
 	public void PlayWord(MEAudioType mel)
 	{
-//		switch(mel)
-//		{
-//		case MEAudioType.Chinese:
-//			//Find chinese audioclip '_cn'
-//			Source.PlayOneShot(MEAudioClips[1]);
-//			break;
-//		case MEAudioType.English:
-//			//Find English audioclip '_en'
-//			Source.PlayOneShot(MEAudioClips[0]);
-//			break;
-//		}
 		foreach(KeyValuePair<AudioClip, MEAudioType> pair in MEWordAudioClips)
 		{
 			if(pair.Value.Equals(mel))
@@ -52,7 +59,17 @@ public class MEWordAudio:MEAudio
 				Source.PlayOneShot(pair.Key);
 			}
 		}
-//		Source.PlayOneShot(MEWordAudioClips[mel]);
 	}
 
+
+	public void PlayStateClip(MEAudioType met)
+	{
+		foreach(KeyValuePair<AudioClip, MEAudioType> pair in MEWordAudioClips)
+		{
+			if(pair.Value.Equals(met))
+			{
+				clickSource.PlayOneShot(pair.Key);
+			}
+		}
+	}
 }

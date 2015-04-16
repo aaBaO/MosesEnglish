@@ -6,9 +6,9 @@ public class ModelControl : MonoBehaviour
 	private FocusManager mFocusManager;
 	private GameObject Model;
 
-	private float MaxScaleLimit = 3;
-	private float MinScaleLimit = 1.0f;
-	private float ScaleOffset = 1;
+	private float MaxScaleLimit;
+	private float MinScaleLimit;
+	private float ScaleOffset;
 	private float PerscaleStep;
 	private Vector2 tempPosition0;
 	private Vector2 tempPosition1;
@@ -42,17 +42,17 @@ public class ModelControl : MonoBehaviour
 		if(!mFocusname.Equals("empty") && getmodelflag)
 		{
 			getmodelflag = false;
-//			FindFocusTarget();
 			Model = GameObject.Find(MosesEnglishData.FocusTargetname);
 			//should load from a document then save in local document at runtime
 			this.mLocalScale = CardInfoCatcher.GetDefaultscale(MosesEnglishData.FocusTargetname);
 			this.ScaleOffset = 1 / this.mLocalScale;
-			this.MaxScaleLimit = this.MaxScaleLimit / this.ScaleOffset;
-			this.MinScaleLimit = this.MinScaleLimit / this.ScaleOffset;
+			this.MaxScaleLimit = 3.0f / this.ScaleOffset;
+			this.MinScaleLimit = 1.0f / this.ScaleOffset;
 			this.PerscaleStep = (this.MaxScaleLimit - this.MinScaleLimit) / 6;
-		
+
+			this.yRotation = 180;
 			//get particlesysteminterface
-//			ParticleSystemScale = mFocusManager.GetParticleSystemInterface(MosesEnglishData.FocusTargetname);
+			ParticleSystemScale = mFocusManager.GetParticleSystemInterface(MosesEnglishData.FocusTargetname);
 		}
 		else if(mFocusname.Equals("empty"))
 		{
@@ -152,19 +152,52 @@ public class ModelControl : MonoBehaviour
 		return myScale;
 	}
 
-//	IEnumerator FindFocusTarget()
-//	{
-////		yield return  GameObject.Find(MosesEnglishData.FocusTargetname);
-//		Model = GameObject.Find(MosesEnglishData.FocusTargetname);
-//		yield return 0;
-//		//should load from a document then save in local document at runtime
-//		this.mLocalScale = CardInfoCatcher.GetDefaultscale(MosesEnglishData.FocusTargetname);
-//		Debug.Log(this.mLocalScale);
-//		this.ScaleOffset = 1 / this.mLocalScale;
-//		this.MaxScaleLimit = this.MaxScaleLimit / this.ScaleOffset;
-//		this.MinScaleLimit = this.MinScaleLimit / this.ScaleOffset;
-//		this.PerscaleStep = (this.MaxScaleLimit - this.MinScaleLimit) / 6;
-//	}
+	public void OnUIEnlarge()
+	{  
+		if(Model != null)
+		{
+			Debug.Log(Model.name + ":onlocaenlarge");
+		
+			this.mLocalScale += this.PerscaleStep;
+			if(this.mLocalScale < this.MaxScaleLimit)
+			{
+				if(this.ParticleSystemScale != null)
+				{
+					this.ParticleSystemScale.OnEnlarge();
+				}
+				Model.transform.localScale += new Vector3(this.PerscaleStep, this.PerscaleStep, this.PerscaleStep);
+			}
+			else if(this.mLocalScale >= this.MaxScaleLimit)
+			{
+				this.mLocalScale = this.MaxScaleLimit;
+				Model.transform.localScale = new Vector3(MaxScaleLimit, MaxScaleLimit, MaxScaleLimit);
+			}
+		}
+	}
+	
+	public void OnUIZoom()
+	{
+		if(Model != null)
+		{
+			Debug.Log(Model.name + ":onlocalzoom");
+			
+			this.mLocalScale -= this.PerscaleStep;
+			if(this.mLocalScale > this.MinScaleLimit)
+			{
+				if(this.ParticleSystemScale != null)
+				{
+					this.ParticleSystemScale.OnZoom();
+				}
+				Model.transform.localScale -= new Vector3(this.PerscaleStep, this.PerscaleStep, this.PerscaleStep);
+			}
+			else if(this.mLocalScale <= this.MinScaleLimit)
+			{
+				this.mLocalScale = this.MinScaleLimit;
+				Model.transform.localScale = new Vector3(MinScaleLimit, MinScaleLimit, MinScaleLimit);
+			}
+		}
+	}
+
 
 	/// <summary>
 	/// Delegate from FocusManager,interested in focuscardname

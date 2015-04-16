@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: truck
-  m_Shader: {fileID: 4800000, guid: 6c4b9ba789b674a309bcf3103bc47425, type: 3}
+  m_Shader: {fileID: 4800000, guid: a043a115a16fc3b4eaca4614a5d6978b, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -17,7 +17,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: b00e12fda8ed34769a23cbfd91b9d351, type: 3}
+          m_Texture: {fileID: 2800000, guid: 40be36df8dc4144baaa0b79369a4efe2, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -31,7 +31,7 @@ Material:
         first:
           name: _Ramp
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: 7fe85df733e76164b912c7ade9e31f71, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -46,9 +46,25 @@ Material:
       data:
         first:
           name: _Outline
-        second: .0357142873
+        second: .000892858778
+      data:
+        first:
+          name: _RimPower
+        second: 8.4285717
     m_Colors:
       data:
         first:
           name: _Color
-        second: {r: .588, g: .588, b: .588, a: 1}
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SColor
+        second: {r: .183823526, g: .183823526, b: .183823526, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: .132352948, g: .132352948, b: .132352948, a: .600000024}
+      data:
+        first:
+          name: _OutlineColor
+        second: {r: 0, g: 0, b: 0, a: 1}

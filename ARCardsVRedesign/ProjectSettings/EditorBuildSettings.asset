@@ -5,15 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/ARCards/Scenes/Index.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/ARCards/Scenes/Loading.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/ARCards/Scenes/ARcards.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/ARCards/Scenes/FreeLoading.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/ARCards/Scenes/FreeCards.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/ARCards/Scenes/ProtectLoading.unity
+  - enabled: 0
+    path: Assets/ARCards/Scenes/ME_Redesign.unity
+  - enabled: 1
+    path: Assets/ARCards/Scenes/ME_Redesign_main.unity

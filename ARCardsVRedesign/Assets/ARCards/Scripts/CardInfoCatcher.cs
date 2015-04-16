@@ -8,7 +8,11 @@ using System.Xml.Linq;
 
 public class CardInfoCatcher 
 {
-	private static string xmlfilepath = "./Assets/Resources/MosesEnglish/mCardInfo.xml";
+#if UNITY_EDITOR_OSX
+	private static string xmlfilepath = "./Assets/StreamingAssets/MosesEnglish/mCardInfo.xml";
+#elif UNITY_IOS
+	private static string xmlfilepath = Application.streamingAssetsPath + "/MosesEnglish/mCardInfo.xml";
+#endif
 	private static XElement mCardinfoXML;
 	private static IEnumerable<XElement> XELcardinfo;
 

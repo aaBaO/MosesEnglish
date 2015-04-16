@@ -6,467 +6,406 @@ using System.IO;
 
 public class MainUIManager : MonoBehaviour
 {
-#region WordDictionary
-	public static Dictionary<string, string> Cardsname = new Dictionary<string, string> (56)
-	{
-		{
-			"rabbit",
-			"兔子"
-		},
-		{
-			"bus",
-			"公交车"
-		},		
-		{
-			"potato",
-			"土豆"
-		},		
-		{
-			"hair",
-			"头发"
-		},		
-		{
-			"boat",
-			"小船"
-		},	
-//		1
-		{
-			"chick",
-			"小鸡"
-		},		
-		{
-			"cap",
-			"帽子"
-		},		
-		{
-			"dinosaur",
-			"恐龙"
-		},		
-		{
-			"hand",
-			"手"
-		},		
-		{
-			"cup",
-			"杯子"
-		},		
-//		2
-		{
-			"orange",
-			"橙子"
-		},		
-		{
-			"balloon",
-			"气球"
-		},		
-		{
-			"firetruck",
-			"消防车"
-		},		
-		{
-			"train",
-			"火车"
-		},		
-		{
-			"panda",
-			"熊猫"
-		},	
-//		3
-		{
-			"teeth",
-			"牙齿"
-		},		
-		{
-			"dog",
-			"狗"
-		},		
-		{
-			"lion",
-			"狮子"
-		},		
-		{
-			"pig",
-			"猪"
-		},		
-		{
-			"monkey",
-			"猴子"
-		},	
-//		4
-		{
-			"doll",
-			"玩具娃娃"
-		},	
-		{
-			"ball",
-			"球"
-		},		
-		{
-			"plate",
-			"盘子"
-		},		
-		{
-			"eye",
-			"眼睛"
-		},		
-		{
-			"bowl",
-			"碗"
-		},	
-//		5
-		{
-			"candy",
-			"糖果"
-		},		
-		{
-			"paper",
-			"纸"
-		},	
-		{
-			"tiger",
-			"老虎"
-		},		
-		{
-			"ear",
-			"耳朵"
-		},		
-		{
-			"meat",
-			"肉"
-		},
-//		6
-		{
-			"tummy",
-			"肚子"
-		},
-		{
-			"foot",
-			"脚"
-		},
-		{
-			"face",
-			"脸"
-		},
-		{
-			"bike",
-			"自行车"
-		},
-		{
-			"apple",
-			"苹果"
-		},
-//		7
-		{
-			"carrot",
-			"胡萝卜"
-		},
-		{
-			"cake",
-			"蛋糕"
-		},
-		{
-			"kangaroo",
-			"袋鼠"
-		},
-		{
-			"socks",
-			"袜子"
-		},
-		{
-			"pants",
-			"裤子"
-		},
-//		8
-		{
-			"tomato",
-			"西红柿"
-		},
-		{
-			"elephant",
-			"象"
-		},
-		{
-			"ship",
-			"轮船"
-		},
-		{
-			"dress",
-			"连衣裙"
-		},
-		{
-			"key",
-			"钥匙"
-		},
-//		9
-		{
-			"umbrella",
-			"雨伞"
-		},
-		{
-			"frog",
-			"青蛙"
-		},
-		{
-			"plane",
-			"飞机"
-		},
-		{
-			"horse",
-			"马"
-		},
-		{
-			"fish",
-			"鱼"
-		},
-//		10
-		{
-			"fish2",
-			"鱼肉"
-		},
-		{
-			"bird",
-			"鸟"
-		},
-		{
-			"egg",
-			"鸡蛋"
-		},
-		{
-			"duck",
-			"鸭子"
-		},
-		{
-			"nose",
-			"鼻子"
-		},
-//		11
-		{
-			"truck",
-			"货车"
-		},
-	};
-#endregion
-	
-	public GameObject MenubuttonsPanel;
-	public GameObject HelpWindow;
-	public UISlider sliderRotate;
-	public GameObject BtnLanguage;
-	public GameObject BtnShoworHide;
-	public GameObject BtnVolume;
-	public UILabel Word;
-	public GameObject WordPanel;
-	public AudioListener AduListener;
-	public UISprite ScanWindow;
+	public GameObject MenuAnimationOBJ;
 	private Animator MenuAni;
-	private Animator HelpAni;
-	private GameObject FoundObj;
-	private Control FoundObjControl;
-	private Config mconfig;
-	private ModelAudio FoundObjAudio;
-	private FileInfo fileinfo;
+
+	public GameObject MenuButton;
+	public GameObject EnlargeButton;
+	public GameObject ZoomButton;
+	public GameObject HideButton;
+	public GameObject VolumeButton;
+	public GameObject HelpButton;
+	public GameObject CloseButton;
+	public GameObject HomeButton;
+	public GameObject LanguageButton;
+
+	public GameObject WordPanel;
+	public UILabel WordText;
+
+	private ModelControl mModelControl;
+
+	private bool mClickedLanguage;
+	private static bool mGetFocusTarget;
+
+	private Config mConfig;
+	private FileInfo mFileinfo;
+
+	public GameObject HelpCenterOBJ;
+	private Animator HelpCenterAni;
+
+	public GameObject HelpLeftBottonOBJ;
+	private Animator HelpLeftBottomAni;
+
+	public GameObject HelpRightBottomOBJ;
+	private Animator HelpRightBottomAni;
+
+	private AudioListener mAudioListener;
+//	public UISlider sliderRotate;
+//	public GameObject BtnLanguage;
+//	public GameObject BtnShoworHide;
+//	public GameObject BtnVolume;
+//	public UILabel Word;
+//	public GameObject WordPanel;
+//	public AudioListener AduListener;
+//	public UISprite ScanWindow;
+//	private GameObject FoundObj;
+//	private Control FoundObjControl;
+//	private ModelAudio FoundObjAudio;
 	void Awake()
 	{
+		mConfig = new Config();
+		mFileinfo = new FileInfo(Path.Combine(Application.persistentDataPath, "config.xml"));
+
+		MenuAni = MenuAnimationOBJ.GetComponent<Animator>();
+		mModelControl = this.gameObject.GetComponent<ModelControl>();
+
+		MosesEnglishData.Language = MEAudioType.English;
 		MosesEnglishData.Volume = true;
-		MenuAni = MenubuttonsPanel.GetComponent<Animator>();
-		HelpAni = HelpWindow.GetComponent<Animator>();
-		mconfig = new Config();
-		fileinfo = new FileInfo(Path.Combine(Application.persistentDataPath, "config.xml"));
+
+		mAudioListener = this.gameObject.GetComponent<AudioListener>();
+
+		UIEventListener.Get(MenuButton).onPress = MenuButtonPress;
+		UIEventListener.Get(EnlargeButton).onPress = EnlargeButtonPress;
+		UIEventListener.Get(ZoomButton).onPress = ZoomButtonPress;
+		UIEventListener.Get(HideButton).onPress = HideButtonPress;
+		UIEventListener.Get(VolumeButton).onPress = VolumeButtonPress;
+		UIEventListener.Get(HelpButton).onPress = HelpButtonPress;
+		UIEventListener.Get(CloseButton).onPress = CloseButtonPress;
+		UIEventListener.Get(HomeButton).onPress = HomeButtonPress;
+		UIEventListener.Get(LanguageButton).onPress = LanguageButtonPress;
+
+		HelpCenterAni = HelpCenterOBJ.GetComponent<Animator>();
+		HelpLeftBottomAni = HelpLeftBottonOBJ.GetComponent<Animator>();
+		HelpRightBottomAni = HelpRightBottomOBJ.GetComponent<Animator>();
 	}
 
 	void Start()
 	{
-		StartCoroutine("EyePro");
+//		StartCoroutine("EyePro");
+	
+//		if(mFileinfo.Exists)
+//		{
+//			if(MosesEnglishData.Toturial)
+//			{
+//				StartCoroutine(MosesToturial());
+//			}
+//		}
+//		else throw new FileNotFoundException();
+
+//		StartCoroutine("MosesToturial");
 	}
 
 	void Update()
 	{
-		if(FoundObj == null && !MosesEnglishData.FocusTargetname.Equals("empty"))
+//		if(FoundObj == null && !MosesEnglishData.FocusTargetname.Equals("empty"))
+//		{
+//			FoundObj = GameObject.Find(MosesEnglishData.FocusTargetname);
+//		}
+//		else if(FoundObj!= null && FoundObjAudio == null)
+//		{
+//			ScanWindow.enabled = false;
+//			FoundObjAudio = FoundObj.GetComponent<ModelAudio>();
+//			FoundObjAudio.OninTarget();
+//		}
+//		
+		if(mClickedLanguage)	
 		{
-			FoundObj = GameObject.Find(MosesEnglishData.FocusTargetname);
-		}
-		else if(FoundObj!= null && FoundObjAudio == null)
-		{
-			ScanWindow.enabled = false;
-			FoundObjAudio = FoundObj.GetComponent<ModelAudio>();
-			FoundObjAudio.OninTarget();
-		}
-		
-		if(MosesEnglishData.FocusTargetname.Equals("empty"))	
-		{
-			ScanWindow.enabled = true;
-			FoundObj = null;
-			if(FoundObjControl != null)
-			{
-				FoundObjControl = null;
-				
-			}
-			Word.text = "";
-			if(FoundObjAudio != null)
-			{
-				FoundObjAudio.OndisTarget();
-				FoundObjAudio = null;
-			}
-		}
-
-		SetWordLabel();
-		SetLanguageButtonSprite();
-		SetHideorShowSprite();
-		SetVolumeSprite();
-	}
-
-	public void OnMenuButton()
-	{
-		MenuAni.SetTrigger("TouchMenu");
-		if(MosesEnglishData.Toturial == true)
-		{
-			HelpAni.SetTrigger("TouchHelp");
-		}
-	}
-
-	public void OnCloseMenuButton()
-	{
-		MenuAni.SetTrigger("TouchMenu");
-	}
-
-	public void OnEnlarge()
-	{
-		if(FoundObj != null)
-		{
-			if(FoundObjControl == null && FoundObj.GetComponent<Control>())
-			{
-				FoundObjControl = FoundObj.GetComponent<Control>();
-			}
-
-			FoundObjControl.OnLocalEnlarge();
-		}
-	}
-
-	public void OnZoom()
-	{
-		if(FoundObj != null)
-		{
-			if(FoundObjControl == null && FoundObj.GetComponent<Control>())
-			{
-				FoundObjControl = FoundObj.GetComponent<Control>();
-			}
-
-			FoundObjControl.OnLocalZoom();
-		}
-	}
-
-	public void OnSliderRotation()
-	{
-		if(FoundObj != null)
-		{
-			if(FoundObjControl == null && FoundObj.GetComponent<Control>())
-			{
-				FoundObjControl = FoundObj.GetComponent<Control>();
-			}
-			
-			FoundObjControl.OnLocalRotate(sliderRotate.value);
-		}
-	}
-
-	public void OnHelpButton()
-	{
-		HelpAni.SetTrigger("TouchHelp");
-	}
-
-	public void OnCloseHelpButton()
-	{
-		HelpAni.SetTrigger("TouchHelp");
-		if(fileinfo.Exists)
-			mconfig.UpdateTTConfig("false");
-		MosesEnglishData.Toturial = false;
-	}
-
-	public void OnLanguageButton()
-	{
-		if(MosesEnglishData.Language == 1)
-			MosesEnglishData.Language = 0;
-		else
-			MosesEnglishData.Language = 1;
-	}
-
-	public void OnHideorShowButton()
-	{
-		MosesEnglishData.Hideword = !MosesEnglishData.Hideword;
-		if(MosesEnglishData.Hideword)
-			WordPanel.SetActive(false);
-		else
-			WordPanel.SetActive(true);
-	}
-
-	public void OnVolumeButton()
-	{
-		MosesEnglishData.Volume = !MosesEnglishData.Volume;
-	}
-
-	public void OnBackButton()
-	{
-		Application.LoadLevelAsync("Index");
-	}
-
-	private void SetLanguageButtonSprite()
-	{
-		if(MosesEnglishData.Language == 0)
-			BtnLanguage.GetComponentInChildren<UISprite>().spriteName = "english";
-		else
-			BtnLanguage.GetComponentInChildren<UISprite>().spriteName = "chinese";
-
-	}
-
-	private void SetWordLabel()
-	{
-		if(MosesEnglishData.FocusTargetname.Length != 0)
-		{
+			mClickedLanguage = false;
 			if(!MosesEnglishData.FocusTargetname.Equals("empty"))
+				WordText.text = GetShowWord(MosesEnglishData.FocusTargetname ,MosesEnglishData.Language);
+			else if(MosesEnglishData.Language.Equals(MEAudioType.English) && MosesEnglishData.FocusTargetname.Equals("empty"))
+				WordText.text = "Moses English";
+			else if(MosesEnglishData.Language.Equals(MEAudioType.Chinese) && MosesEnglishData.FocusTargetname.Equals("empty"))
+				WordText.text = "摩西英语";
+		}
+
+		if(mGetFocusTarget)
+		{
+			mGetFocusTarget = false;
+			if(!MosesEnglishData.FocusTargetname.Equals("empty"))
+				WordText.text = GetShowWord(MosesEnglishData.FocusTargetname ,MosesEnglishData.Language);
+			else if(MosesEnglishData.Language.Equals(MEAudioType.English) && MosesEnglishData.FocusTargetname.Equals("empty"))
+				WordText.text = "Moses English";
+			else if(MosesEnglishData.Language.Equals(MEAudioType.Chinese) && MosesEnglishData.FocusTargetname.Equals("empty"))
+				WordText.text = "摩西英语";
+		}
+	}
+
+	private void MenuButtonPress(GameObject button, bool isPress)
+	{
+		if(isPress)
+		{
+			MenuAni.SetTrigger("Click");
+			MenuAni.GetComponentInChildren<UISprite>().spriteName = "menu_d";
+		}
+		else
+		{
+			MenuAni.GetComponentInChildren<UISprite>().spriteName = "menu";
+		}	
+	}
+
+	private void EnlargeButtonPress(GameObject button, bool isPress)
+	{
+		if(isPress)
+		{
+			EnlargeButton.GetComponentInChildren<UISprite>().spriteName = "enlarge_d";
+			if(mModelControl != null)
 			{
-				foreach (KeyValuePair<string, string> pairvalue in Cardsname)  
-				{    	
-					if(pairvalue.Key.Equals(MosesEnglishData.FocusTargetname))
-					{
-						if(MosesEnglishData.Language == 0)
-						{
-							if(pairvalue.Key.Equals("fish2"))
-								Word.text = "fish";
-							else 
-								Word.text = pairvalue.Key;
-						}
-						else
-							Word.text = pairvalue.Value;
-	
-//						Debug.Log("TargetID:" + pairvalue.Key + "--Value:" + pairvalue.Value);  
-					}
-				}  
+				mModelControl.OnUIEnlarge();
+			}
+		}
+		else
+		{
+			EnlargeButton.GetComponentInChildren<UISprite>().spriteName = "enlarge";
+		}
+	}
+
+	private void ZoomButtonPress(GameObject button, bool isPress)
+	{
+		if(isPress)
+		{
+			ZoomButton.GetComponentInChildren<UISprite>().spriteName = "zoom_d";
+			if(mModelControl != null)
+			{
+				mModelControl.OnUIZoom();
+			}
+		}
+		else
+		{
+			ZoomButton.GetComponentInChildren<UISprite>().spriteName = "zoom";
+		}
+	}
+
+	private void HideButtonPress(GameObject button, bool isPress)
+	{
+		if(isPress)
+		{
+			if(MosesEnglishData.Hideword)
+				HideButton.GetComponentInChildren<UISprite>().spriteName = "hide_d";
+			else
+				HideButton.GetComponentInChildren<UISprite>().spriteName = "show_d";
+
+			MosesEnglishData.Hideword = !MosesEnglishData.Hideword;
+			if(MosesEnglishData.Hideword)
+				WordPanel.SetActive(false);
+			else
+				WordPanel.SetActive(true);
+		}
+		else
+		{
+			if(MosesEnglishData.Hideword)
+				HideButton.GetComponent<UIButton>().normalSprite = "hide";
+			else
+				HideButton.GetComponent<UIButton>().normalSprite = "show";
+		}
+	}
+
+	private void VolumeButtonPress(GameObject button, bool isPress)
+	{
+		if(isPress)
+		{
+			if(MosesEnglishData.Volume)
+				VolumeButton.GetComponentInChildren<UISprite>().spriteName = "volumeno_d";
+			else
+				VolumeButton.GetComponentInChildren<UISprite>().spriteName = "volume_d";
+
+			MosesEnglishData.Volume = !MosesEnglishData.Volume;
+		}
+		else
+		{
+			mAudioListener.enabled = MosesEnglishData.Volume;
+			if(MosesEnglishData.Volume)
+				VolumeButton.GetComponent<UIButton>().normalSprite = "volume";
+			else
+				VolumeButton.GetComponent<UIButton>().normalSprite = "volumeno";
+		}
+	}
+
+	private void HelpButtonPress(GameObject button, bool isPress)
+	{
+		if(isPress)
+		{
+			HelpButton.GetComponentInChildren<UISprite>().spriteName = "help_d";
+			HelpCenterAni.SetTrigger("run");
+			HelpLeftBottomAni.SetTrigger("run");
+			HelpRightBottomAni.SetTrigger("run");
+		}
+		else
+		{
+			HelpButton.GetComponentInChildren<UISprite>().spriteName = "help";
+		}
+	}
+
+	private void CloseButtonPress(GameObject button, bool isPress)
+	{
+		if(isPress)
+		{
+			CloseButton.GetComponentInChildren<UISprite>().spriteName = "close_d";
+			MenuAni.SetTrigger("Click");
+		}
+		else
+		{
+			CloseButton.GetComponentInChildren<UISprite>().spriteName = "close";
+		}
+	}
+
+	private void HomeButtonPress(GameObject button, bool isPress)
+	{
+		if(isPress)
+		{
+			HomeButton.GetComponentInChildren<UISprite>().spriteName = "backhome_d";
+		}
+		else
+		{
+
+			HomeButton.GetComponentInChildren<UISprite>().spriteName = "backhome";
+//			Application.LoadLevelAsync("Index");
+		}
+	}
+
+	private void LanguageButtonPress(GameObject button, bool isPress)
+	{
+		if(isPress)
+		{
+			mClickedLanguage = true;	
+			
+			if(MosesEnglishData.Language.Equals(MEAudioType.Chinese))
+			{
+				LanguageButton.GetComponentInChildren<UISprite>().spriteName = "chinese_d";
+				MosesEnglishData.Language = MEAudioType.English;
+			}
+			else
+			{
+				LanguageButton.GetComponentInChildren<UISprite>().spriteName = "english_d";
+				MosesEnglishData.Language = MEAudioType.Chinese;
+			}
+		}
+		else
+		{
+			if(MosesEnglishData.Language.Equals(MEAudioType.Chinese))
+			{
+				LanguageButton.GetComponent<UIButton>().normalSprite = "chinese";
+			}
+			else
+			{
+				LanguageButton.GetComponent<UIButton>().normalSprite = "english";
 			}
 		}
 	}
 
-	private void SetHideorShowSprite()
+
+	private string GetShowWord(string focusname, MEAudioType mel)
 	{
-		if(MosesEnglishData.Hideword)
-			BtnShoworHide.GetComponentInChildren<UISprite>().spriteName = "hide";
-		else
-			BtnShoworHide.GetComponentInChildren<UISprite>().spriteName = "show";
+		string tmpstring = "";
+		if(mel.Equals(MEAudioType.Chinese))
+			tmpstring = CardInfoCatcher.GetChinesename(focusname);
+		else if(mel.Equals(MEAudioType.English))
+			tmpstring = CardInfoCatcher.GetEnglishname(focusname);
+
+		return tmpstring;
 	}
 
-	private void SetVolumeSprite()
+	
+	/// <summary>
+	/// Delegate from FocusManager,interested in focuscardname
+	/// </summary>
+	/// <param name="focusname">Focusname.</param>
+	public static void SetFocusTarget(string focusname)
 	{
-		if(MosesEnglishData.Volume)
-			BtnVolume.GetComponentInChildren<UISprite>().spriteName = "volume";
-		else
-			BtnVolume.GetComponentInChildren<UISprite>().spriteName = "volumeno";
+		mGetFocusTarget = true;
 	}
 
-	IEnumerator EyePro()
-	{
-		int count = 0;
-		while(count < 900)
-		{
-			yield return new WaitForSeconds(1);
-			count += 1;
-		}
-		Application.LoadLevelAsync("ProtectLoading");
+
+	IEnumerator MosesToturial()
+	{	
+		HelpCenterAni.SetTrigger("run");
+		HelpLeftBottomAni.SetTrigger("run");
+		HelpRightBottomAni.SetTrigger("run");
+		MenuButton.GetComponent<UIButton>().normalSprite = "menu_d";
+		yield return new WaitForSeconds(3.0f);
+		MenuButton.GetComponent<UIButton>().normalSprite = "menu";
+		HelpCenterAni.SetTrigger("run");
+		HelpLeftBottomAni.SetTrigger("run");
+		HelpRightBottomAni.SetTrigger("run");
 	}
+//	public void OnHelpButton()
+//	{
+//		HelpAni.SetTrigger("TouchHelp");
+//	}
+//
+//	public void OnCloseHelpButton()
+//	{
+//		HelpAni.SetTrigger("TouchHelp");
+//		if(fileinfo.Exists)
+//			mconfig.UpdateTTConfig("false");
+//		MosesEnglishData.Toturial = false;
+//	}
+//
+//	public void OnLanguageButton()
+//	{
+//		if(MosesEnglishData.Language == 1)
+//			MosesEnglishData.Language = 0;
+//		else
+//			MosesEnglishData.Language = 1;
+//	}
+//
+//	public void OnHideorShowButton()
+//	{
+//		MosesEnglishData.Hideword = !MosesEnglishData.Hideword;
+//		if(MosesEnglishData.Hideword)
+//			WordPanel.SetActive(false);
+//		else
+//			WordPanel.SetActive(true);
+//	}
+//
+//	public void OnVolumeButton()
+//	{
+//		MosesEnglishData.Volume = !MosesEnglishData.Volume;
+//	}
+//
+//	public void OnBackButton()
+//	{
+//		Application.LoadLevelAsync("Index");
+//	}
+//
+//	private void SetLanguageButtonSprite()
+//	{
+//		if(MosesEnglishData.Language == 0)
+//			BtnLanguage.GetComponentInChildren<UISprite>().spriteName = "english";
+//		else
+//			BtnLanguage.GetComponentInChildren<UISprite>().spriteName = "chinese";
+//
+//	}
+//
+//	private void SetWordLabel()
+//	{
+//
+//	}
+//
+//	private void SetHideorShowSprite()
+//	{
+//		if(MosesEnglishData.Hideword)
+//			BtnShoworHide.GetComponentInChildren<UISprite>().spriteName = "hide";
+//		else
+//			BtnShoworHide.GetComponentInChildren<UISprite>().spriteName = "show";
+//	}
+//
+//	private void SetVolumeSprite()
+//	{
+//		if(MosesEnglishData.Volume)
+//			BtnVolume.GetComponentInChildren<UISprite>().spriteName = "volume";
+//		else
+//			BtnVolume.GetComponentInChildren<UISprite>().spriteName = "volumeno";
+//	}
+//
+//	IEnumerator EyePro()
+//	{
+//		int count = 0;
+//		while(count < 900)
+//		{
+//			yield return new WaitForSeconds(1);
+//			count += 1;
+//		}
+//		Application.LoadLevelAsync("ProtectLoading");
+//	}
 }

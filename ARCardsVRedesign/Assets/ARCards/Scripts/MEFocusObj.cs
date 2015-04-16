@@ -5,11 +5,13 @@ using System.Collections.Generic;
 
 public class MEFocusObj 
 {
-	public string Name;
-
 	public MEWordAudio WordAudio;
 	public MEAnimation Animation;
 	public MEParticle Particle;
+	public GameObject Obj;
+
+	public string Name;
+	public bool LoadFinish;
 
 	public MEFocusObj(string name)
 	{

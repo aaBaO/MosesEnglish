@@ -74,7 +74,7 @@ public class IndexManager : MonoBehaviour
 	public void OnFinshInput()
 	{
 		ActivateCodestr = uiInput.value;
-		Debug.Log("Finsh Input:" + ActivateCodestr);
+//		Debug.Log("Finsh Input:" + ActivateCodestr);
 	}
 
 	public void OnChangeInput()
@@ -90,7 +90,7 @@ public class IndexManager : MonoBehaviour
 		}
 		else
 		{
-			Debug.Log("try to Activate");
+//			Debug.Log("try to Activate");
 			StartCoroutine(DoActivate(ActivateCodestr));
 		}
 
@@ -98,13 +98,13 @@ public class IndexManager : MonoBehaviour
 
 	public void OnEntergame()
 	{
-		Debug.Log("on enter game");
+//		Debug.Log("on enter game");
 		Application.LoadLevel("Loading");
 	}
 
 	public void OnFreegame()
 	{
-		Debug.Log("on the free game");
+//		Debug.Log("on the free game");
 		Application.LoadLevel("FreeLoading");
 	}
 
@@ -230,7 +230,7 @@ public class IndexManager : MonoBehaviour
 
 #if UNITY_IOS
 	[DllImport ("__Internal")]
-	private static extern void _send ();
+	private static extern void _send();
 	
 	public static void Send()
 	{

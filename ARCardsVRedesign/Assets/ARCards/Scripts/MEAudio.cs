@@ -2,12 +2,6 @@
 using System;
 using System.Collections;
 
-public enum MEAudioType
-{
-	Chinese = 0,
-	English
-}
-
 public class MEAudio
 {
 	private AudioSource source;

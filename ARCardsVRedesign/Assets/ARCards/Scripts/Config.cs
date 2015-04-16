@@ -50,7 +50,7 @@ public class Config
 			if(xe.Name.Equals("activatecode"))
 				tmpstr = xe.InnerText;
 		}
-		Debug.Log("acconfig:" + tmpstr);
+//		Debug.Log("acconfig:" + tmpstr);
 		return tmpstr;
 	}
 	
@@ -79,7 +79,7 @@ public class Config
 			if(xe.Name.Equals("toturial"))
 				tmpstr = xe.InnerText;
 		}
-		Debug.Log("ttconfig:" + tmpstr);
+//		Debug.Log("ttconfig:" + tmpstr);
 		return tmpstr;
 	}
 
@@ -101,12 +101,12 @@ public class Config
 		if(this.ReadTTConfig().Equals("true"))
 		{
 			MosesEnglishData.Toturial = true;
-			Debug.Log("MosesEnglishData.Toturial:" + MosesEnglishData.Toturial);
+//			Debug.Log("MosesEnglishData.Toturial:" + MosesEnglishData.Toturial);
 		}
 		else if(this.ReadTTConfig().Equals("false"))
 		{
 			MosesEnglishData.Toturial = false;
-			Debug.Log("MosesEnglishData.Toturial:" + MosesEnglishData.Toturial);
+//			Debug.Log("MosesEnglishData.Toturial:" + MosesEnglishData.Toturial);
 		}
 	}
 }

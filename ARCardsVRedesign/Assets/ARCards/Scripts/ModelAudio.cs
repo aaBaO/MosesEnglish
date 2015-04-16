@@ -8,23 +8,23 @@ public class ModelAudio : MonoBehaviour
 	public AudioSource asWord;
 	public AudioClip[] acModel;
 
-	public void OnTouchRun () 
-	{
-		if(asWord != null)
-		{
-			if(acModel[MosesEnglishData.Language] != null)
-				asWord.PlayOneShot(acModel[MosesEnglishData.Language]);
-		}
-
-		if(asModel != null)
-		{
-			if(acModel[3] != null)
-			{
-				asModel.loop = false;
-				asModel.PlayOneShot(acModel[3]);
-			}
-		}
-	}
+//	public void OnTouchRun () 
+//	{
+//		if(asWord != null)
+//		{
+//			if(acModel[MosesEnglishData.Language] != null)
+//				asWord.PlayOneShot(acModel[MosesEnglishData.Language]);
+//		}
+//
+//		if(asModel != null)
+//		{
+//			if(acModel[3] != null)
+//			{
+//				asModel.loop = false;
+//				asModel.PlayOneShot(acModel[3]);
+//			}
+//		}
+//	}
 
 	public void OninTarget()
 	{

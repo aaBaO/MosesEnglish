@@ -23,6 +23,7 @@ public class ImageTargetEvent : MonoBehaviour,
 	#endregion // PRIVATE_MEMBER_VARIABLES
 	
 	#region PUBLIC_METODS
+
 	void Start()
 	{
 		CameraDevice.Instance.SetFocusMode(CameraDevice.FocusMode.FOCUS_MODE_CONTINUOUSAUTO);
@@ -79,6 +80,7 @@ public class ImageTargetEvent : MonoBehaviour,
 		Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
 //		MosesEnglishData.FocusTargetname = "empty";
 		FocusManager.RemoveTarget(mTrackableBehaviour.TrackableName);
+
 	}
 
 	private void ShowstartParticle()

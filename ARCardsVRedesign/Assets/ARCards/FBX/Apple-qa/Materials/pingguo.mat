@@ -46,11 +46,11 @@ Material:
       data:
         first:
           name: _Outline
-        second: .000892857264
+        second: 0
       data:
         first:
           name: _RimPower
-        second: 7.78571463
+        second: 9.07142925
     m_Colors:
       data:
         first:
@@ -63,7 +63,7 @@ Material:
       data:
         first:
           name: _RimColor
-        second: {r: .0220588446, g: .0220588446, b: .0220588446, a: 1}
+        second: {r: .191176474, g: .191176474, b: .191176474, a: 1}
       data:
         first:
           name: _OutlineColor

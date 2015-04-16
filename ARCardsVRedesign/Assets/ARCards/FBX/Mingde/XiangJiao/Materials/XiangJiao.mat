@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: XiangJiao
+  m_Shader: {fileID: 4800000, guid: a043a115a16fc3b4eaca4614a5d6978b, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 6da07fea59a41423ab23ced6ca59f3fc, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: a2a36e1e1c86f4cc68123a07332cccbc, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Ramp
+        second:
+          m_Texture: {fileID: 2800000, guid: 7fe85df733e76164b912c7ade9e31f71, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Outline
+        second: .00142857118
+      data:
+        first:
+          name: _RimPower
+        second: 8.21428585
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .992647052, g: .992647052, b: .992647052, a: 1}
+      data:
+        first:
+          name: _SColor
+        second: {r: .301470578, g: .301470578, b: .301470578, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: .33088237, g: .33088237, b: .33088237, a: .600000024}
+      data:
+        first:
+          name: _OutlineColor
+        second: {r: 0, g: 0, b: 0, a: 1}

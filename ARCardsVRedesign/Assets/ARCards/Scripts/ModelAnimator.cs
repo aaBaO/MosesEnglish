@@ -60,14 +60,14 @@ public class ModelAnimator : MonoBehaviour
 						if(mAnimator != null)
 							mAnimator.SetTrigger("TouchRun");
 						sInterface.OnplayClick();
-						mAudio.OnTouchRun();
+//						mAudio.OnTouchRun();
 						StartCoroutine("DisableCollider");
 					}
 					else
 					{
 						if(mAnimator != null)
 							mAnimator.SetTrigger("TouchRun");
-						mAudio.OnTouchRun();
+//						mAudio.OnTouchRun();
 						StartCoroutine("DisableCollider");
 					}
 				}

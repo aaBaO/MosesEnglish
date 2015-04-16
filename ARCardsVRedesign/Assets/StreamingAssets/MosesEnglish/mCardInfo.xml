@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MosesCardInfo>
+		<card name = "rabbit">
+			<englishname>rabbit</englishname>
+			<chinesename>兔子</chinesename>
+			<localscale>4.56809</localscale>
+			<isanimal>0</isanimal>
+		</card>
+
+		<card name = "bus">
+			<englishname>bus</englishname>
+			<chinesename>公交车</chinesename>
+			<localscale>1.091659</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "potato">
+			<englishname>potato</englishname>
+			<chinesename>土豆</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "hair">
+			<englishname>hair</englishname>
+			<chinesename>头发</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "boat">
+			<englishname>boat</englishname>
+			<chinesename>小船</chinesename>
+			<localscale>1.031912</localscale>
+			<isanimal>1</isanimal>
+		</card>
+		<!-- 5 -->
+		<card name = "chick">
+			<englishname>chick</englishname>
+			<chinesename>小鸡</chinesename>
+			<localscale>4.025576</localscale>
+			<isanimal>0</isanimal>
+		</card>
+
+		<card name = "cap">
+			<englishname>cap</englishname>
+			<chinesename>帽子</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "dinosaur">
+			<englishname>dinosaur</englishname>
+			<chinesename>恐龙</chinesename>
+			<localscale>1.304721</localscale>
+			<isanimal>0</isanimal>
+		</card>
+
+		<card name = "hand">
+			<englishname>hand</englishname>
+			<chinesename>手</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "cup">
+			<englishname>cup</englishname>
+			<chinesename>杯子</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+		<!-- 10 -->
+		<card name = "orange">
+			<englishname>orange</englishname>
+			<chinesename>橙子</chinesename>
+			<localscale>6.452451</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "balloon">
+			<englishname>balloon</englishname>
+			<chinesename>气球</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "firetruck">
+			<englishname>firetruck</englishname>
+			<chinesename>消防车</chinesename>
+			<localscale>0.3518668</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "train">
+			<englishname>train</englishname>
+			<chinesename>火车</chinesename>
+			<localscale>0.6402261</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "panda">
+			<englishname>panda</englishname>
+			<chinesename>熊猫</chinesename>
+			<localscale>0.6483706</localscale>
+			<isanimal>0</isanimal>
+		</card>
+		<!-- 15 -->
+		<card name = "teeth">
+			<englishname>teeth</englishname>
+			<chinesename>牙齿</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "dog">
+			<englishname>dog</englishname>
+			<chinesename>狗</chinesename>
+			<localscale>1</localscale>
+			<isanimal>0</isanimal>
+		</card>
+
+		<card name = "lion">
+			<englishname>lion</englishname>
+			<chinesename>狮子</chinesename>
+			<localscale>0.6939327</localscale>
+			<isanimal>0</isanimal>
+		</card>
+
+		<card name = "pig">
+			<englishname>pig</englishname>
+			<chinesename>猪</chinesename>
+			<localscale>1.5844</localscale>
+			<isanimal>0</isanimal>
+		</card>
+
+		<card name = "monkey">
+			<englishname>monkey</englishname>
+			<chinesename>猴子</chinesename>
+			<localscale>0.6495485</localscale>
+			<isanimal>0</isanimal>
+		</card>
+		<!-- 20 -->
+		<card name = "doll">
+			<englishname>doll</englishname>
+			<chinesename>玩具娃娃</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "ball">
+			<englishname>ball</englishname>
+			<chinesename>球</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "plate">
+			<englishname>plate</englishname>
+			<chinesename>盘子</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "eye">
+			<englishname>eye</englishname>
+			<chinesename>眼睛</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "bowl">
+			<englishname>bowl</englishname>
+			<chinesename>碗</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+		<!-- 25 -->
+		<card name = "candy">
+			<englishname>candy</englishname>
+			<chinesename>糖果</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "paper">
+			<englishname>paper</englishname>
+			<chinesename>纸</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "tiger">
+			<englishname>tiger</englishname>
+			<chinesename>老虎</chinesename>
+			<localscale>0.5620022</localscale>
+			<isanimal>0</isanimal>
+		</card>
+
+		<card name = "ear">
+			<englishname>ear</englishname>
+			<chinesename>耳朵</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "meat">
+			<englishname>meat</englishname>
+			<chinesename>肉</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+		<!-- 30 -->
+		<card name = "tummy">
+			<englishname>tummy</englishname>
+			<chinesename>肚子</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "foot">
+			<englishname>foot</englishname>
+			<chinesename>脚</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "face">
+			<englishname>face</englishname>
+			<chinesename>脸</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "bike">
+			<englishname>bike</englishname>
+			<chinesename>自行车</chinesename>
+			<localscale>1.409354</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "apple">
+			<englishname>apple</englishname>
+			<chinesename>苹果</chinesename>
+			<localscale>1.998521</localscale>
+			<isanimal>1</isanimal>
+		</card>
+		<!-- 35 -->
+		<card name = "carrot">
+			<englishname>carrot</englishname>
+			<chinesename>胡萝卜</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "cake">
+			<englishname>cake</englishname>
+			<chinesename>蛋糕</chinesename>
+			<localscale>3.397334</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "kangaroo">
+			<englishname>kangaroo</englishname>
+			<chinesename>袋鼠</chinesename>
+			<localscale>1.244361</localscale>
+			<isanimal>0</isanimal>
+		</card>
+
+		<card name = "socks">
+			<englishname>socks</englishname>
+			<chinesename>袜子</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "pants">
+			<englishname>pants</englishname>
+			<chinesename>裤子</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+		<!-- 40 -->
+		<card name = "tomato">
+			<englishname>tomato</englishname>
+			<chinesename>西红柿</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "elephant">
+			<englishname>elephant</englishname>
+			<chinesename>象</chinesename>
+			<localscale>0.9390026</localscale>
+			<isanimal>0</isanimal>
+		</card>
+
+		<card name = "ship">
+			<englishname>ship</englishname>
+			<chinesename>轮船</chinesename>
+			<localscale>0.8817158</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "dress">
+			<englishname>dress</englishname>
+			<chinesename>连衣裙</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "key">
+			<englishname>key</englishname>
+			<chinesename>钥匙</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+		<!-- 45 -->
+		<card name = "umbrella">
+			<englishname>umbrella</englishname>
+			<chinesename>雨伞</chinesename>
+			<localscale>0.8368275</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "frog">
+			<englishname>frog</englishname>
+			<chinesename>青蛙</chinesename>
+			<localscale>5.33156</localscale>
+			<isanimal>0</isanimal>
+		</card>
+
+		<card name = "plane">
+			<englishname>plane</englishname>
+			<chinesename>飞机</chinesename>
+			<localscale>0.200804</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "horse">
+			<englishname>horse</englishname>
+			<chinesename>马</chinesename>
+			<localscale>2.156157</localscale>
+			<isanimal>0</isanimal>
+		</card>
+
+		<card name = "fish">
+			<englishname>fish</englishname>
+			<chinesename>鱼</chinesename>
+			<localscale>5.403617</localscale>
+			<isanimal>0</isanimal>
+		</card>
+		<!-- 50 -->
+		<card name = "fish2">
+			<englishname>fish2</englishname>
+			<chinesename>鱼肉</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "bird">
+			<englishname>bird</englishname>
+			<chinesename>鸟</chinesename>
+			<localscale>2.242533</localscale>
+			<isanimal>0</isanimal>
+		</card>
+
+		<card name = "egg">
+			<englishname>egg</englishname>
+			<chinesename>鸡蛋</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "duck">
+			<englishname>duck</englishname>
+			<chinesename>鸭子</chinesename>
+			<localscale>1</localscale>
+			<isanimal>0</isanimal>
+		</card>
+
+		<card name = "nose">
+			<englishname>nose</englishname>
+			<chinesename>鼻子</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+		<!-- 55 -->
+		<card name = "truck">
+			<englishname>truck</englishname>
+			<chinesename>货车</chinesename>
+			<localscale>0.8113045</localscale>
+			<isanimal>1</isanimal>
+		</card>
+		
+		<!-- 26 Letters -->
+		<card name = "letterA">
+			<englishname>A</englishname>
+			<chinesename>A</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>apple</letterreferencemodel>
+		</card>
+
+		<card name = "letterB">
+			<englishname>B</englishname>
+			<chinesename>B</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>bird</letterreferencemodel>
+		</card>
+
+		<card name = "letterC">
+			<englishname>C</englishname>
+			<chinesename>C</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>cake</letterreferencemodel>
+		</card>
+
+		<card name = "letterD">
+			<englishname>D</englishname>
+			<chinesename>D</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>dinosaur</letterreferencemodel>
+		</card>
+
+		<card name = "letterE">
+			<englishname>E</englishname>
+			<chinesename>E</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>elephant</letterreferencemodel>
+		</card>
+
+		<card name = "letterF">
+			<englishname>F</englishname>
+			<chinesename>F</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>fish</letterreferencemodel>
+		</card>
+
+		<card name = "letterG">
+			<englishname>G</englishname>
+			<chinesename>G</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>gift</letterreferencemodel>
+		</card>
+
+		<card name = "letterH">
+			<englishname>H</englishname>
+			<chinesename>H</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>horse</letterreferencemodel>
+		</card>
+
+		<card name = "letterI">
+			<englishname>I</englishname>
+			<chinesename>I</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>icecream</letterreferencemodel>
+		</card>
+
+		<card name = "letterJ">
+			<englishname>J</englishname>
+			<chinesename>J</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>juice</letterreferencemodel>
+		</card>
+
+		<card name = "letterK">
+			<englishname>K</englishname>
+			<chinesename>K</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>kangaroo</letterreferencemodel>
+		</card>
+
+		<card name = "letterL">
+			<englishname>L</englishname>
+			<chinesename>L</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>lion</letterreferencemodel>
+		</card>
+
+		<card name = "letterM">
+			<englishname>M</englishname>
+			<chinesename>M</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>monkey</letterreferencemodel>
+		</card>
+
+		<card name = "letterN">
+			<englishname>N</englishname>
+			<chinesename>N</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>noodles</letterreferencemodel>
+		</card>
+
+		<card name = "letterO">
+			<englishname>O</englishname>
+			<chinesename>O</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>orange</letterreferencemodel>
+		</card>
+
+		<card name = "letterP">
+			<englishname>P</englishname>
+			<chinesename>P</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>panda</letterreferencemodel>
+		</card>
+
+		<card name = "letterQ">
+			<englishname>Q</englishname>
+			<chinesename>Q</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>quilt</letterreferencemodel>
+		</card>
+
+		<card name = "letterR">
+			<englishname>R</englishname>
+			<chinesename>R</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>rabbit</letterreferencemodel>
+		</card>
+			
+		<card name = "letterS">
+			<englishname>S</englishname>
+			<chinesename>S</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>socks</letterreferencemodel>
+		</card>
+
+		<card name = "letterT">
+			<englishname>T</englishname>
+			<chinesename>T</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>tiger</letterreferencemodel>
+		</card>
+
+		<card name = "letterU">
+			<englishname>U</englishname>
+			<chinesename>U</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>umbrella</letterreferencemodel>
+		</card>
+
+		<card name = "letterV">
+			<englishname>V</englishname>
+			<chinesename>V</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>vegetable</letterreferencemodel>
+		</card>
+
+		<card name = "letterW">
+			<englishname>W</englishname>
+			<chinesename>W</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>watermelon</letterreferencemodel>
+		</card>
+
+		<card name = "letterX">
+			<englishname>X</englishname>
+			<chinesename>X</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>xerox</letterreferencemodel>
+		</card>
+
+		<card name = "letterY">
+			<englishname>Y</englishname>
+			<chinesename>Y</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>ship2</letterreferencemodel>
+		</card>
+
+		<card name = "letterZ">
+			<englishname>Z</englishname>
+			<chinesename>Z</chinesename>
+			<localscale>2.837568</localscale>
+			<isanimal>1</isanimal>
+			<letterreferencemodel>zebra</letterreferencemodel>
+		</card>
+
+
+		<!-- Numbers -->
+		<card name = "zero">
+			<englishname>zero</englishname>
+			<chinesename>零</chinesename>
+			<localscale>3.379036</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "one">
+			<englishname>one</englishname>
+			<chinesename>一</chinesename>
+			<localscale>3.379036</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "two">
+			<englishname>two</englishname>
+			<chinesename>二</chinesename>
+			<localscale>3.379036</localscale>
+			<isanimal>1</isanimal>
+		</card>	
+
+		<card name = "three">
+			<englishname>three</englishname>
+			<chinesename>三</chinesename>
+			<localscale>3.379036</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "four">
+			<englishname>four</englishname>
+			<chinesename>四</chinesename>
+			<localscale>3.379036</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "five">
+			<englishname>five</englishname>
+			<chinesename>五</chinesename>
+			<localscale>3.379036</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "six">
+			<englishname>six</englishname>
+			<chinesename>六</chinesename>
+			<localscale>3.379036</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "seven">
+			<englishname>seven</englishname>
+			<chinesename>七</chinesename>
+			<localscale>3.379036</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "eight">
+			<englishname>eight</englishname>
+			<chinesename>八</chinesename>
+			<localscale>3.379036</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "nine">
+			<englishname>nine</englishname>
+			<chinesename>九</chinesename>
+			<localscale>3.379036</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "gift">
+			<englishname>gift</englishname>
+			<chinesename>礼物</chinesename>
+			<localscale>1.982839</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "icecream">
+			<englishname>icecream</englishname>
+			<chinesename>冰淇淋</chinesename>
+			<localscale>50.01902</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "juice">
+			<englishname>juice</englishname>
+			<chinesename>果汁</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "noodles">
+			<englishname>noodles</englishname>
+			<chinesename>面</chinesename>
+			<localscale>1.599927</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "quilt">
+			<englishname>quilt</englishname>
+			<chinesename>被子</chinesename>
+			<localscale>0.7623233</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "vegetable">
+			<englishname>vegetables</englishname>
+			<chinesename>蔬菜</chinesename>
+			<localscale>1.947144</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "watermelon">
+			<englishname>watermelon</englishname>
+			<chinesename>西瓜</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "xerox">
+			<englishname>xerox</englishname>
+			<chinesename>影印</chinesename>
+			<localscale>0.7291286</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "ship2">
+			<englishname>yacht</englishname>
+			<chinesename>游艇</chinesename>
+			<localscale>0.6994054</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "zebra">
+			<englishname>zebra</englishname>
+			<chinesename>斑马</chinesename>
+			<localscale>1.468714</localscale>
+			<isanimal>0</isanimal>
+		</card>
+
+		<card name = "car">
+			<englishname>car</englishname>
+			<chinesename>小汽车</chinesename>
+			<localscale>1</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "banana">
+			<englishname>banana</englishname>
+			<chinesename>香蕉</chinesename>
+			<localscale>1.654746</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "grape">
+			<englishname>grape</englishname>
+			<chinesename>葡萄</chinesename>
+			<localscale>2.25378</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "kiwifruit">
+			<englishname>kiwifruit</englishname>
+			<chinesename>猕猴桃</chinesename>
+			<localscale>2.201458</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "lemon">
+			<englishname>lemon</englishname>
+			<chinesename>柠檬</chinesename>
+			<localscale>2.933898</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "pineapple">
+			<englishname>pineapple</englishname>
+			<chinesename>菠萝</chinesename>
+			<localscale>75.24786</localscale>
+			<isanimal>1</isanimal>
+		</card>
+
+		<card name = "strawberry">
+			<englishname>strawberry</englishname>
+			<chinesename>草莓</chinesename>
+			<localscale>6.359699</localscale>
+			<isanimal>1</isanimal>
+		</card>
+</MosesCardInfo>
