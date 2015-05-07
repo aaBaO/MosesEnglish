@@ -289,7 +289,7 @@
 
 		<card name = "elephant">
 			<englishname>elephant</englishname>
-			<chinesename>象</chinesename>
+			<chinesename>大象</chinesename>
 			<localscale>0.9390026</localscale>
 			<isanimal>0</isanimal>
 		</card>
@@ -425,7 +425,7 @@
 			<letterreferencemodel>dinosaur</letterreferencemodel>
 		</card>
 
-		<card name = "letterE">
+		<card name = "letterE_2">
 			<englishname>E</englishname>
 			<chinesename>E</chinesename>
 			<localscale>2.837568</localscale>

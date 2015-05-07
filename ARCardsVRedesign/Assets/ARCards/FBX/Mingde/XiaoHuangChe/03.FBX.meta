@@ -79,7 +79,71 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy04
+        weight: 1
+      - path: Dummy04/Dummy01
+        weight: 1
+      - path: Dummy04/Dummy01/Bone05
+        weight: 1
+      - path: Dummy04/Dummy01/Bone05/objCheMen2
+        weight: 1
+      - path: Dummy04/Dummy01/Bone06
+        weight: 1
+      - path: Dummy04/Dummy01/Bone06/objCheMen1
+        weight: 1
+      - path: Dummy04/Dummy01/objXiaoHuangChe
+        weight: 1
+      - path: Dummy04/Dummy02
+        weight: 1
+      - path: Dummy04/Dummy02/Bone01
+        weight: 1
+      - path: Dummy04/Dummy02/Bone01/Object01
+        weight: 1
+      - path: Dummy04/Dummy02/Bone02
+        weight: 1
+      - path: Dummy04/Dummy02/Bone02/Object04
+        weight: 1
+      - path: Dummy04/Dummy03
+        weight: 1
+      - path: Dummy04/Dummy03/Bone03
+        weight: 1
+      - path: Dummy04/Dummy03/Bone03/Object02
+        weight: 1
+      - path: Dummy04/Dummy03/Bone04
+        weight: 1
+      - path: Dummy04/Dummy03/Bone04/Object03
+        weight: 1
+      - path: Particle View 01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []

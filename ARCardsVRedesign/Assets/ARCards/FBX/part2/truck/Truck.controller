@@ -35,13 +35,13 @@ Transition:
   m_Name: 
   m_SrcState: {fileID: 110200000}
   m_DstState: {fileID: 110221734}
-  m_TransitionDuration: .0483870953
-  m_TransitionOffset: 0
+  m_TransitionDuration: .143247262
+  m_TransitionOffset: .239588723
   m_Conditions:
   - m_ConditionMode: 5
     m_ConditionEvent: TouchRun
     m_EventTreshold: 0
-    m_ExitTime: .95161289
+    m_ExitTime: .997984827
   m_Atomic: 1
   m_Solo: 0
   m_Mute: 0
@@ -71,13 +71,13 @@ State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Take 001
+  m_Name: Take 001 0
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
   - {fileID: 7400000, guid: f5b531a655bb44fedbd4f5d99971fa09, type: 3}
   m_ParentStateMachine: {fileID: 110700000}
-  m_Position: {x: 60, y: 192, z: 0}
+  m_Position: {x: 48, y: 192, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
@@ -86,11 +86,11 @@ State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: New State
+  m_Name: Take 001
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 0}
+  - {fileID: 7400000, guid: 335797794b35f470a8171dbaa83fde1b, type: 2}
   m_ParentStateMachine: {fileID: 110700000}
   m_Position: {x: 48, y: 72, z: 0}
   m_IKOnFeet: 0

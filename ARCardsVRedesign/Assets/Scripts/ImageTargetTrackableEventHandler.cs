@@ -66,12 +66,12 @@ public class ImageTargetTrackableEventHandler : MonoBehaviour,
         {
             if(ImageTargetUIEventHandler.ExtendedTrackingIsEnabled)
             {
-                if(component.gameObject.name == "tower")
+				if(component.gameObject.name == "tower")
                 {
                      component.enabled = true;
                 }
             }
-            else if(component.gameObject.name == "teapot")
+			else if(component.gameObject.name == "teapot")
             {
                 component.enabled = true;
             }
@@ -82,12 +82,12 @@ public class ImageTargetTrackableEventHandler : MonoBehaviour,
         {
              if(ImageTargetUIEventHandler.ExtendedTrackingIsEnabled)
                 {
-                    if(component.gameObject.name == "tower")
+				if(component.gameObject.name == "tower")
                     {
                          component.enabled = true;
                     }
                 }
-            else if(component.gameObject.name == "teapot")
+			else if(component.gameObject.name == "teapot")
             {
                 component.enabled = true;
             }

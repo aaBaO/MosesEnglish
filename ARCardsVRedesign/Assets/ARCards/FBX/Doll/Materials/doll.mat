@@ -22,27 +22,19 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _Bump
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
           name: _Ramp
         second:
           m_Texture: {fileID: 2800000, guid: 8af77daad29f8b34da56515f193158f9, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Bump
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
-      data:
-        first:
-          name: _Tooniness
-        second: 1.51250005
-      data:
-        first:
-          name: _ColorMerge
-        second: 20000
       data:
         first:
           name: _Outline
@@ -51,6 +43,14 @@ Material:
         first:
           name: _RimPower
         second: 8.71428585
+      data:
+        first:
+          name: _Tooniness
+        second: 1.51250005
+      data:
+        first:
+          name: _ColorMerge
+        second: 20000
     m_Colors:
       data:
         first:

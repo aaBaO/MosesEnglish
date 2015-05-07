@@ -44,7 +44,10 @@ public class ModelControl : MonoBehaviour
 			getmodelflag = false;
 			Model = GameObject.Find(MosesEnglishData.FocusTargetname);
 			//should load from a document then save in local document at runtime
-			this.mLocalScale = CardInfoCatcher.GetDefaultscale(MosesEnglishData.FocusTargetname);
+			if(MosesEnglishData.FocusTargetname.Substring(0,1).Equals("L"))
+				this.mLocalScale = CardInfoCatcher.GetDefaultscale(MosesEnglishData.FocusTargetname.Substring(1));
+			else
+				this.mLocalScale = CardInfoCatcher.GetDefaultscale(MosesEnglishData.FocusTargetname);
 			this.ScaleOffset = 1 / this.mLocalScale;
 			this.MaxScaleLimit = 3.0f / this.ScaleOffset;
 			this.MinScaleLimit = 1.0f / this.ScaleOffset;

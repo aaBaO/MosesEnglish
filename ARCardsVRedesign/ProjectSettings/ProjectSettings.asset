@@ -68,7 +68,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  iPhoneBundleIdentifier: com.mosesic.arcards2
+  iPhoneBundleIdentifier: com.mosesic.mingde
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   productGUID: 46224efe7dc56474fbf20e72b25ae353
@@ -143,17 +143,17 @@ PlayerSettings:
       m_Size: 36
   - m_BuildTarget: iPhone
     m_Icons:
-    - m_Icon: {fileID: 0}
+    - m_Icon: {fileID: 2800000, guid: 20dd60aecb9b04a5d97b9460963fb140, type: 3}
       m_Size: 180
-    - m_Icon: {fileID: 0}
+    - m_Icon: {fileID: 2800000, guid: 1d007a89c9544404e97f8f6f8f98a8b3, type: 3}
       m_Size: 152
     - m_Icon: {fileID: 2800000, guid: 072e34c6aa6e84b299696b51569f1570, type: 3}
       m_Size: 144
-    - m_Icon: {fileID: 2800000, guid: 7e28be7b92ccf463f89ba16e4a5856ca, type: 3}
+    - m_Icon: {fileID: 2800000, guid: e750d291ae6d04cb2bf363cdd950722f, type: 3}
       m_Size: 120
     - m_Icon: {fileID: 2800000, guid: 77bd49bd6f96342108279384bb9e5c8a, type: 3}
       m_Size: 114
-    - m_Icon: {fileID: 0}
+    - m_Icon: {fileID: 2800000, guid: d7e2ffae3e9fa4fa5a085ef82ea6f6c4, type: 3}
       m_Size: 76
     - m_Icon: {fileID: 0}
       m_Size: 72

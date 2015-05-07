@@ -110,7 +110,7 @@ public class ComponentSelector : ScriptableWizard
 				{
 					if (a == null) return (b == null) ? 0 : 1;
 					if (b == null) return -1;
-					return a.name.CompareTo(b.name);
+				return a.name.CompareTo(b.name);
 				});
 		}
 	}

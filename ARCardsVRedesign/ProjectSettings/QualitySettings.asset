@@ -60,7 +60,7 @@ QualitySettings:
     softVegetation: 0
     vSyncCount: 0
     lodBias: .699999988
-    maximumLODLevel: 0
+    maximumLODLevel: 3
     particleRaycastBudget: 64
     excludedTargetPlatforms: []
   - serializedVersion: 2

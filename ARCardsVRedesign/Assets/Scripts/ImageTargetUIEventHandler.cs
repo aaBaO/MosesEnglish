@@ -380,17 +380,17 @@ public class ImageTargetUIEventHandler : ISampleAppUIEventHandler {
                 
                 foreach (Renderer component in rendererComponents)
                 {
-                    if(component.gameObject.name == "tower")
+					if(component.gameObject.name == "tower")
                              component.enabled = tf;
-                    if(component.gameObject.name == "teapot")
+					if(component.gameObject.name == "teapot")
                         component.enabled = !tf;
                 }
         
                 foreach (Collider component in colliderComponents)
                 {
-                    if(component.gameObject.name == "tower")
+					if(component.gameObject.name == "tower")
                              component.enabled = tf;
-                    if(component.gameObject.name == "teapot")
+					if(component.gameObject.name == "teapot")
                         component.enabled = !tf;
                 }
             }

@@ -1,63 +1,22 @@
 ﻿Shader "Custom/Depth Mask Complex"
  {
      Properties {
+	_MainTex ("Base (RGB)", 2D) = "white" {}
+	_Alpha ("Alpha (A)", 2D) = "white" {}
+	}
 
 
-_MainTex ("Base (RGB)", 2D) = "white" {}
+	SubShader {
 
 
- _Alpha ("Alpha (A)", 2D) = "white" {}
+		Tags { "RenderType" = "Transparent" "Queue" = "Transparent"}
+		ZWrite Off
+		Blend SrcAlpha OneMinusSrcAlpha
+		ColorMask RGB
 
-
+		Pass {
+			SetTexture[_MainTex] {Combine texture}
+			SetTexture[_Alpha] {Combine previous, texture}
+		}
+	} 
 }
-
-
-SubShader {
-
-
-Tags { "RenderType" = "Transparent" "Queue" = "Transparent"}
-
- 
-
- 
-
-ZWrite Off
-
- 
-
- 
-
-Blend SrcAlpha OneMinusSrcAlpha
-
-
-ColorMask RGB
-
- 
-
-Pass {
-
-
-SetTexture[_MainTex] {
-
-
-Combine texture
-
-
-}
-
-
-SetTexture[_Alpha] {
-
-
-Combine previous, texture
-
-
-}
-
-
-}
-
-} 
-
-
- }

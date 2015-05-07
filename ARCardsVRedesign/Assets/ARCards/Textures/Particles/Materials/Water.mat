@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Water
-  m_Shader: {fileID: 4800000, guid: 8aab5f04cb6b94822947b9ddcf19e57a, type: 3}
+  m_Shader: {fileID: 4800000, guid: fe42bd9abebe6484bbe3e6368d8eca9d, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -72,12 +72,12 @@ Material:
     m_Floats:
       data:
         first:
-          name: _WiggleStrength
-        second: .0276785716
-      data:
-        first:
           name: _Alpha
         second: .696428597
+      data:
+        first:
+          name: _WiggleStrength
+        second: .0839285702
       data:
         first:
           name: _FoamAddAlpha
@@ -102,7 +102,7 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: 1, g: 1, b: 1, a: 1}
+        second: {r: .91911763, g: .91911763, b: .91911763, a: 1}
       data:
         first:
           name: _ReflectColor

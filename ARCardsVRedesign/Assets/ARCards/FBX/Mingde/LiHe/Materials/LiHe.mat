@@ -17,21 +17,14 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 7e38811d9957f444fb39cc0cf6739d7e, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _BumpMap
-        second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: edfe973e102d34dd9837f9139639a028, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _Ramp
         second:
-          m_Texture: {fileID: 2800000, guid: abc83c21d57d4a74cabe12065fa1a8b2, type: 3}
+          m_Texture: {fileID: 2800000, guid: 8af77daad29f8b34da56515f193158f9, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -42,20 +35,20 @@ Material:
       data:
         first:
           name: _RimPower
-        second: 8.64285755
+        second: 8.71428585
     m_Colors:
       data:
         first:
           name: _Color
-        second: {r: .786764741, g: .786764741, b: .786764741, a: 1}
+        second: {r: .779411793, g: .779411793, b: .779411793, a: 1}
       data:
         first:
           name: _SColor
-        second: {r: .235294104, g: .235294104, b: .235294104, a: 1}
+        second: {r: .397058845, g: .397058845, b: .397058845, a: 1}
       data:
         first:
           name: _RimColor
-        second: {r: .220588207, g: .220588207, b: .220588207, a: .600000024}
+        second: {r: .110294104, g: .110294104, b: .110294104, a: .600000024}
       data:
         first:
           name: _OutlineColor

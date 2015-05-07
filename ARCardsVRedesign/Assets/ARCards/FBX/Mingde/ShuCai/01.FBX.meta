@@ -234,7 +234,221 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy08
+        weight: 1
+      - path: Dummy08/Dummy10
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy07
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy07/Bone34
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy07/Bone34/Bone35
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy11
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy11/Dummy05
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy11/Dummy05/Bone36
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy11/Dummy05/Bone36/Bone37
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy11/Dummy12
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy11/Dummy12/Dummy06
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy11/Dummy12/Dummy06/Bone50
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy11/Dummy12/Dummy06/Bone50/Bone51
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy11/Dummy12/Dummy13
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy11/Dummy12/Dummy13/Dummy04
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy11/Dummy12/Dummy13/Dummy04/Bone38
+        weight: 1
+      - path: Dummy08/Dummy10/Dummy11/Dummy12/Dummy13/Dummy04/Bone38/Bone49
+        weight: 1
+      - path: Dummy09
+        weight: 1
+      - path: Dummy15
+        weight: 1
+      - path: Dummy21
+        weight: 1
+      - path: Dummy21/Dummy03
+        weight: 1
+      - path: Dummy21/Dummy03/Bone21
+        weight: 1
+      - path: Dummy21/Dummy03/Bone21/Bone22
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy14
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy14/Bone30
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy14/Bone30/Bone31
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19/Dummy16
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19/Dummy16/Bone32
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19/Dummy16/Bone32/Bone33
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19/Dummy20
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19/Dummy20/Dummy17
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19/Dummy20/Dummy17/Bone23
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19/Dummy20/Dummy17/Bone23/Bone24
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19/Dummy20/Dummy17/Bone23/Bone24/Bone25
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19/Dummy20/Dummy17/Bone23/Bone24/Bone25/Bone26
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19/Dummy20/Dummy17/Bone23/Bone24/Bone25/Bone26/Bone27
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19/Dummy20/Dummy17/Bone23/Bone24/Bone25/Bone26/Bone27/Bone28
+        weight: 1
+      - path: Dummy21/Dummy03/Dummy18/Dummy19/Dummy20/Dummy17/Bone23/Bone24/Bone25/Bone26/Bone27/Bone28/Bone29
+        weight: 1
+      - path: Dummy31
+        weight: 1
+      - path: Dummy31/Dummy29
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy25
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy25/Bone41
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy25/Bone41/Bone42
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy24
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy24/Bone39
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy24/Bone39/Bone40
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy22
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy22/Bone43
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy22/Bone43/Bone44
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy23
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy23/Bone45
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy23/Bone45/Bone46
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone01
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone01/Bone02
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone01/Bone02/Bone47
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone01/Bone02/Bone47/Bone48
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone01/Bone02/Bone47/Bone48/Bone52
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone05
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone05/Bone06
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone05/Bone06/Bone07
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone05/Bone06/Bone07/Bone08
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone09
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone09/Bone10
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone09/Bone10/Bone11
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone09/Bone10/Bone11/Bone12
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone13
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone13/Bone14
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone13/Bone14/Bone15
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone13/Bone14/Bone15/Bone16
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone17
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone17/Bone18
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone17/Bone18/Bone19
+        weight: 1
+      - path: Dummy31/Dummy29/Dummy28/Dummy26/Dummy27/Dummy30/Dummy02/Bone17/Bone18/Bone19/Bone20
+        weight: 1
+      - path: HuLuoBo01
+        weight: 1
+      - path: HuLuoBo02
+        weight: 1
+      - path: HuLuoBo03
+        weight: 1
+      - path: HuLuoBo04
+        weight: 1
+      - path: TuDou01
+        weight: 1
+      - path: TuDou02
+        weight: 1
+      - path: TuDou03
+        weight: 1
+      - path: TuDou04
+        weight: 1
+      - path: XiHongShi01
+        weight: 1
+      - path: XiHongShi02
+        weight: 1
+      - path: XiHongShi03
+        weight: 1
+      - path: XiHongShi04
+        weight: 1
+      - path: XiHongShi05
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []

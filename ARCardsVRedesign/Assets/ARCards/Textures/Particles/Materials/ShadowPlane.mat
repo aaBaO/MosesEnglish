@@ -28,9 +28,9 @@ Material:
       data:
         first:
           name: _ShadowInt
-        second: .446428567
+        second: .732142866
     m_Colors:
       data:
         first:
           name: _Color
-        second: {r: 0, g: 0, b: 0, a: 1}
+        second: {r: .338235319, g: .338235319, b: .338235319, a: 1}

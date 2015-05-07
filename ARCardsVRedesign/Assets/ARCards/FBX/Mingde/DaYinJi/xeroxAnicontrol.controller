@@ -91,7 +91,7 @@ State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: New State
+  m_Name: Take 001
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
@@ -106,7 +106,7 @@ State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Take 001
+  m_Name: Take 001 0
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
@@ -131,6 +131,9 @@ StateMachine:
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
     data:
+      first: {fileID: 0}
+      second: []
+    data:
       first: {fileID: 110210536}
       second:
       - {fileID: 110148492}
@@ -138,9 +141,6 @@ StateMachine:
       first: {fileID: 110228662}
       second:
       - {fileID: 110187608}
-    data:
-      first: {fileID: 0}
-      second: []
   m_MotionSetCount: 1
   m_AnyStatePosition: {x: 24, y: -156, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}

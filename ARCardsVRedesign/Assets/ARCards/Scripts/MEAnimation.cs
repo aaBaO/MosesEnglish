@@ -43,4 +43,15 @@ public class MEAnimation
 	{
 		return animator.GetCurrentAnimatorStateInfo(0).IsName(statename);
 	}
+
+	public bool Isloop(string statename)
+	{
+		bool result = false;
+//		AnimationInfo[] ais = animator.GetCurrentAnimationClipState(0);
+//		if(ais[0].clip != null && ais[0].clip.name.Equals(statename) && ais[0].clip.isLooping)
+//			result = true;
+		if(animator.GetCurrentAnimatorStateInfo(0).loop && animator.GetCurrentAnimatorStateInfo(0).IsName(statename))
+			result = true;
+		return result;
+	}
 }

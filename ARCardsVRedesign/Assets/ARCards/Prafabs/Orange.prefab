@@ -43,9 +43,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 400004}
   - 95: {fileID: 9500000}
-  - 65: {fileID: 6500000}
+  - 65: {fileID: 6533124}
   m_Layer: 0
-  m_Name: Orange
+  m_Name: orange
   m_TagString: Model
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -244,7 +244,7 @@ MeshCollider:
   m_SmoothSphereCollisions: 0
   m_Convex: 0
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &6500000
+--- !u!65 &6533124
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -254,8 +254,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: .100000001, y: .100000001, z: .100000001}
-  m_Center: {x: 0, y: .0399999991, z: 0}
+  m_Size: {x: .157156035, y: .0399014764, z: .0603201725}
+  m_Center: {x: .0285780672, y: .00995072536, z: -.00875031855}
 --- !u!95 &9500000
 Animator:
   serializedVersion: 3

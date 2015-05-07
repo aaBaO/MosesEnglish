@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 91033e5820d02475fbc92a4f6c3929ba
+guid: 76dd43c5d575144d4810e41b25c62617
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
@@ -222,20 +222,20 @@ ModelImporter:
     100432: Box023
     100434: Box025
     100436: Cylinder095
-    100438: default001
-    100440: Dummy001
-    100442: Dummy002
-    100444: Dummy003
-    100446: Dummy004
-    100448: Dummy005
-    100450: Dummy006
-    100452: Helix001
-    100454: Line091
-    100456: Line092
-    100458: Line094
-    100460: Line095
-    100462: Object068
-    100464: Object069
+    100438: Dummy001
+    100440: Dummy002
+    100442: Dummy003
+    100444: Dummy004
+    100446: Dummy005
+    100448: Dummy006
+    100450: Line091
+    100452: Line092
+    100454: Line094
+    100456: Line095
+    100458: Object068
+    100460: Object069
+    100462: Object070
+    100464: Object071
     100466: Particle View 001
     100468: Sphere010
     100470: Sphere011
@@ -243,8 +243,6 @@ ModelImporter:
     100474: Sphere013
     100476: Sphere015
     100478: Sphere017
-    100480: Object070
-    100482: Object071
     400000: //RootNode
     400002: Bone001
     400004: Bone002
@@ -464,20 +462,20 @@ ModelImporter:
     400432: Box023
     400434: Box025
     400436: Cylinder095
-    400438: default001
-    400440: Dummy001
-    400442: Dummy002
-    400444: Dummy003
-    400446: Dummy004
-    400448: Dummy005
-    400450: Dummy006
-    400452: Helix001
-    400454: Line091
-    400456: Line092
-    400458: Line094
-    400460: Line095
-    400462: Object068
-    400464: Object069
+    400438: Dummy001
+    400440: Dummy002
+    400442: Dummy003
+    400444: Dummy004
+    400446: Dummy005
+    400448: Dummy006
+    400450: Line091
+    400452: Line092
+    400454: Line094
+    400456: Line095
+    400458: Object068
+    400460: Object069
+    400462: Object070
+    400464: Object071
     400466: Particle View 001
     400468: Sphere010
     400470: Sphere011
@@ -485,8 +483,6 @@ ModelImporter:
     400474: Sphere013
     400476: Sphere015
     400478: Sphere017
-    400480: Object070
-    400482: Object071
     2300000: Object068
     2300002: Object069
     2300004: Sphere010
@@ -508,30 +504,26 @@ ModelImporter:
     4300008: Line094
     4300010: Line095
     4300012: Cylinder095
-    4300014: Helix001
-    4300016: default001
-    4300018: Object068
-    4300020: Object069
-    4300022: Sphere010
-    4300024: Sphere015
-    4300026: Sphere017
-    4300028: Sphere012
-    4300030: Sphere013
-    4300032: Object070
-    4300034: Object071
+    4300014: Object068
+    4300016: Object069
+    4300018: Sphere010
+    4300020: Sphere015
+    4300022: Sphere017
+    4300024: Sphere012
+    4300026: Sphere013
+    4300028: Object070
+    4300030: Object071
     7400000: Take 001
     9500000: //RootNode
     13700000: Box023
     13700002: Box025
     13700004: Cylinder095
-    13700006: default001
-    13700008: Helix001
-    13700010: Line091
-    13700012: Line094
-    13700014: Line095
+    13700006: Line091
+    13700008: Line094
+    13700010: Line095
+    13700012: Object070
+    13700014: Object071
     13700016: Sphere011
-    13700018: Object070
-    13700020: Object071
   materials:
     importMaterials: 1
     materialName: 0

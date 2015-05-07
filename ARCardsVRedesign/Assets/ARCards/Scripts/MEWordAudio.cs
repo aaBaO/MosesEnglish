@@ -62,13 +62,35 @@ public class MEWordAudio:MEAudio
 	}
 
 
+//	public void PlaySong(string name)
+//	{
+//		AudioClip ac = Resources.Load<AudioClip>("MosesEnglish/SongAudios/" + name + "_song");
+//		Source.PlayOneShot(ac);
+//	}
+
 	public void PlayStateClip(MEAudioType met)
 	{
 		foreach(KeyValuePair<AudioClip, MEAudioType> pair in MEWordAudioClips)
 		{
 			if(pair.Value.Equals(met))
 			{
+				clickSource.Stop();
+				clickSource.loop = false;
+				clickSource.clip = null;
 				clickSource.PlayOneShot(pair.Key);
+			}
+		}
+	}
+
+	public void PlayLoopStateClip(MEAudioType met)
+	{
+		foreach(KeyValuePair<AudioClip, MEAudioType> pair in MEWordAudioClips)
+		{
+			if(pair.Value.Equals(met))
+			{
+				clickSource.clip = pair.Key;
+				clickSource.loop = true;
+				clickSource.Play();
 			}
 		}
 	}

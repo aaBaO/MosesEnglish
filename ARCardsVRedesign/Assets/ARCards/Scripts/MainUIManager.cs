@@ -81,16 +81,16 @@ public class MainUIManager : MonoBehaviour
 
 	void Start()
 	{
-//		StartCoroutine("EyePro");
+		StartCoroutine("EyePro");
 	
-//		if(mFileinfo.Exists)
-//		{
-//			if(MosesEnglishData.Toturial)
-//			{
-//				StartCoroutine(MosesToturial());
-//			}
-//		}
-//		else throw new FileNotFoundException();
+		if(mFileinfo.Exists)
+		{
+			if(MosesEnglishData.Toturial)
+			{
+				StartCoroutine(MosesToturial());
+			}
+		}
+		else throw new FileNotFoundException();
 
 //		StartCoroutine("MosesToturial");
 	}
@@ -259,7 +259,7 @@ public class MainUIManager : MonoBehaviour
 		{
 
 			HomeButton.GetComponentInChildren<UISprite>().spriteName = "backhome";
-//			Application.LoadLevelAsync("Index");
+			Application.LoadLevelAsync("Index");
 		}
 	}
 
@@ -297,6 +297,9 @@ public class MainUIManager : MonoBehaviour
 	private string GetShowWord(string focusname, MEAudioType mel)
 	{
 		string tmpstring = "";
+		if(focusname.Substring(0,1).Equals("L"))
+			focusname = focusname.Substring(1);
+
 		if(mel.Equals(MEAudioType.Chinese))
 			tmpstring = CardInfoCatcher.GetChinesename(focusname);
 		else if(mel.Equals(MEAudioType.English))
@@ -398,14 +401,14 @@ public class MainUIManager : MonoBehaviour
 //			BtnVolume.GetComponentInChildren<UISprite>().spriteName = "volumeno";
 //	}
 //
-//	IEnumerator EyePro()
-//	{
-//		int count = 0;
-//		while(count < 900)
-//		{
-//			yield return new WaitForSeconds(1);
-//			count += 1;
-//		}
-//		Application.LoadLevelAsync("ProtectLoading");
-//	}
+	IEnumerator EyePro()
+	{
+		int count = 0;
+		while(count < 900)
+		{
+			yield return new WaitForSeconds(1);
+			count += 1;
+		}
+		Application.LoadLevelAsync("ProtectLoading");
+	}
 }

@@ -944,9 +944,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 400124}
   - 95: {fileID: 9500000}
-  - 136: {fileID: 13628412}
+  - 65: {fileID: 6532970}
   m_Layer: 0
-  m_Name: Elephant
+  m_Name: elephant
   m_TagString: Model
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1934,8 +1934,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100134}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.38030934e-08, y: -.0042693615, z: 0}
-  m_LocalScale: {x: .267719567, y: .267719626, z: .267719626}
+  m_LocalPosition: {x: -7.3803001e-08, y: -.00426940015, z: 0}
+  m_LocalScale: {x: .230466232, y: .230466247, z: .230466247}
   m_Children: []
   m_Father: {fileID: 400124}
   m_RootOrder: 6
@@ -1991,6 +1991,18 @@ MeshCollider:
   m_SmoothSphereCollisions: 0
   m_Convex: 0
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &6532970
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100124}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .414360642, y: .163572237, z: .664285183}
+  m_Center: {x: -.00804372318, y: .0736761838, z: .0196353886}
 --- !u!95 &9500000
 Animator:
   serializedVersion: 3
@@ -2006,19 +2018,6 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!136 &13628412
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100124}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: .329901725
-  m_Height: 1.07696784
-  m_Direction: 2
-  m_Center: {x: 0, y: .289999992, z: .119999997}
 --- !u!137 &13700000
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -2228,7 +2227,7 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100126}
   lengthInSec: .300000012
-  startDelay: .0500000007
+  startDelay: 1
   speed: 1
   randomSeed: 0
   looping: 0
@@ -3180,7 +3179,7 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100128}
   lengthInSec: .300000012
-  startDelay: 0
+  startDelay: .800000012
   speed: 1
   randomSeed: 0
   looping: 0
@@ -4131,8 +4130,8 @@ ParticleSystem:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100130}
-  lengthInSec: .300000012
-  startDelay: .200000003
+  lengthInSec: .200000003
+  startDelay: 1
   speed: 1
   randomSeed: 0
   looping: 0
@@ -4142,7 +4141,7 @@ ParticleSystem:
   InitialModule:
     enabled: 1
     startLifetime:
-      scalar: .300000012
+      scalar: .200000003
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -5084,7 +5083,7 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100132}
   lengthInSec: .300000012
-  startDelay: .100000001
+  startDelay: 1
   speed: 1
   randomSeed: 0
   looping: 0
@@ -5115,7 +5114,7 @@ ParticleSystem:
           tangentMode: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
-      minMaxState: 3
+      minMaxState: 0
     startSpeed:
       scalar: 5
       maxCurve:
@@ -6090,8 +6089,8 @@ ParticleSystem:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100136}
-  lengthInSec: .300000012
-  startDelay: .200000003
+  lengthInSec: .200000003
+  startDelay: 1
   speed: 1
   randomSeed: 0
   looping: 0
@@ -6101,7 +6100,7 @@ ParticleSystem:
   InitialModule:
     enabled: 1
     startLifetime:
-      scalar: .300000012
+      scalar: .200000003
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -7057,7 +7056,7 @@ ParticleSystemRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_RenderMode: 0
-  m_MaxParticleSize: .5
+  m_MaxParticleSize: 1
   m_CameraVelocityScale: 0
   m_VelocityScale: 0
   m_LengthScale: 2
@@ -7089,7 +7088,7 @@ ParticleSystemRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_RenderMode: 0
-  m_MaxParticleSize: .5
+  m_MaxParticleSize: 1
   m_CameraVelocityScale: 0
   m_VelocityScale: 0
   m_LengthScale: 2
@@ -7121,7 +7120,7 @@ ParticleSystemRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_RenderMode: 0
-  m_MaxParticleSize: .5
+  m_MaxParticleSize: 1
   m_CameraVelocityScale: 0
   m_VelocityScale: 0
   m_LengthScale: 2
@@ -7153,7 +7152,7 @@ ParticleSystemRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_RenderMode: 1
-  m_MaxParticleSize: .5
+  m_MaxParticleSize: 1
   m_CameraVelocityScale: 0
   m_VelocityScale: 0
   m_LengthScale: 6
@@ -7185,7 +7184,7 @@ ParticleSystemRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_RenderMode: 0
-  m_MaxParticleSize: .5
+  m_MaxParticleSize: 1
   m_CameraVelocityScale: 0
   m_VelocityScale: 0
   m_LengthScale: 2

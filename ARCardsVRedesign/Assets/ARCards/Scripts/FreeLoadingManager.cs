@@ -14,7 +14,7 @@ public class FreeLoadingManager : MonoBehaviour
 	void Start () 
 	{
 		RandomaTip();
-		StartCoroutine(LoadScene("FreeCards"));
+		StartCoroutine(LoadScene("ME_Redesign"));
 	}
 
 	IEnumerator LoadScene(string scenename)

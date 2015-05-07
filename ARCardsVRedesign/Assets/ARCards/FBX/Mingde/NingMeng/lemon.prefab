@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 437518}
   - 95: {fileID: 9537552}
-  - 135: {fileID: 13542668}
+  - 65: {fileID: 6536298}
   m_Layer: 0
   m_Name: lemon
   m_TagString: Model
@@ -564,6 +564,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 137552}
   m_Mesh: {fileID: 4300002, guid: c67b0a357fa984aebb1697e1e2dd88e1, type: 3}
+--- !u!65 &6536298
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 137518}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .14566496, y: .0536892414, z: .19180347}
+  m_Center: {x: -.00616223505, y: .0301910583, z: .0468726866}
 --- !u!95 &9537552
 Animator:
   serializedVersion: 3
@@ -579,18 +591,6 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!135 &13542668
-SphereCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 137518}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: .0694132373
-  m_Center: {x: 0, y: .0299999993, z: 0}
 --- !u!137 &13737552
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

@@ -15,7 +15,7 @@ public class LoadingManager : MonoBehaviour
 	void Start () 
 	{
 		RandomaTip();
-		StartCoroutine(LoadScene("ARcards"));
+		StartCoroutine(LoadScene("ME_Redesign_main"));
 	}
 
 	IEnumerator LoadScene(string scenename)
